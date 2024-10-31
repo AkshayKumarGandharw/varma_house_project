@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.bg-pink{
+    background-color:#ED1651;
+}
+.text-white{
+    color:white;
+}
+.bg-white{
+    background-color:#FFFFFF;
+}
+/* fixed button start */
+#fixed_btn{
+    position:fixed;
+    right:30px;
+    bottom:10px;
+    float:right;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color:#FC425D;   
+}
+/* fixed button end */
+/* modal start */
+.modal .modal-dialog{
+    position:fixed;
+    right:20px;
+    bottom:50px;
+    width:340px;
+    
+}
+.modal .modal-dialog .modal-body{
+    height:250px;
+}
+.modal .modal-dialog .modal-header{
+    background:linear-gradient(to right,#F22762,#FB4C87);
+}
+ .modal .modal-dialog .modal-header .reload {
+    color:white;
+    text-align:center;
+    position:absolute;
+    top:0;
+    right:5px;  
+}  
+#reload-btn{
+    width:25px;
+    height:25px;
+    background-color:black;
+    float:right;
+    margin-left:95px;
+    color:white;
+    background-color:#FB4C87;
+    border-radius:50%;
+    position:relative;
+    border:none;
+}
+.user{
+    display:inline-block;
+}
+.message-content{
+    background-color:#FDC7D2;
+    padding:5px 4px;
+    border-radius:0px 5px 5px 5px;
+}
+.user-type-msg{
+    padding:0px;   
+}
+.user-type-msg input{
+    border:2px solid #FDC7D2;
+}
+/* modal end */
+/* banner section start */
+#banner_section{
+    background-color:#F4F7F6;
+}
+/* banner section end */
+/* image section start */
+#image_section{
+    padding:100px 0px;
+}
+#image_section .image_box{
+    width:100%;
+    height:100%;
+    border:1px solid white;
+   
+}
+#image_section .image_box .image img{
+    width:100%;
+
+}
+#image_section  .image_box .content{
+   // background-color::#F4F7F6;
+   background-color:#F4F7F6;
+   padding:10px 20px;
+   margin-bottom:30px;
+}
+#image_section .content .padding-head{
+     padding:20px 0px;
+}
+#image_section .content .padding-head .title{
+       font-size:20px;
+       font-weight:bold;     
+}
+#image_section .content .padding-head .subtitle{
+        font-size:12px;
+        margin:2px 0px;
+}
+#image_section .content .location{
+      color:#ED1651;
+}
+#image_section .content .location b{
+    color:black;
+    font-weight:500;
+}
+#image_section .content .right_1 ,.right_2 {
+    color:red;
+    margin-bottom:20px;
+   
+}
+#image_section .image_box .content .row{
+    margin:20px 5px;
+}
+#image_section .image_box .content .row .col{
+   
+    border:1px inset #F4F7F6;
+      
+}
+#image_section .image_box .content .row .heading {
+    font-size:15px;
+    font-weight:500;
+}
+/* image section end */
+/* read more section start */
+#read_more_section{
+    background-color:#F4F7F6;
+    height:auto;
+    padding:100px 0px;
+}
+#read_more_section .card-body{
+    background-color:#F4F7F6;
+    border:none;
+}
+/* read more section end */
+/* ask questions section start */
+#ask_questions_section{
+    height:auto;
+    background-color:#F4F7F6;   
+}
+#ask_questions_section .text-div,.text-div_2{
+    margin:20px 0px;
+}
+#ask_questions_section .btn{
+    width:100%;
+    position:relative;
+    text-align:left;
+    color:black;
+    border:none;
+    box-shadow:0px 0px 2px gray;
+}
+#ask_questions_section .btn span {
+    position:absolute;
+    right:13px;
+    top:7px;   
+    
+}
+
+/* ask questions section end */

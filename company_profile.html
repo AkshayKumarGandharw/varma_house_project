@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home:Varma Homes</title>
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <!-- swiper js link for css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- bootstrap link for css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- font awsome link for css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- aos link for css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  My folder link for css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/company_profile.css">
+</head>
+
+<body>
+
+
+    <header id="my_header">
+        <div class="container-fluid">
+            <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-3">
+                <div class="col-lg-2 ">
+                    <ul class="start-0">
+                        <li><a href="">
+                                <img src="./assets/img/logo.svg" alt="" class="img-fluid mx-auto ">
+                            </a></li>
+                    </ul>
+
+
+                </div>
+                <div class="col-lg-6 ">
+                    <nav>
+                        <ul class="navbar">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="menu"> <a href=""> Projects <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="submenu">
+                                    <li> <a href="kochi.html">Kochi</a></li>
+                                    <li> <a href="trivandrum.html">Trivandrum</a></li>
+                                    <li><a href="thrissur.html">Thrissur</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu"> <a href="">About Us<i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="submenu">
+                                    <li> <a href="company_profile.html">Company Profile</a></li>
+                                    <li> <a href="varma_touch.html">Varma Touch</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="">Gallery</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="d-flex end-0">
+                        <li>
+                            <a href="">
+                                <img src="./assets/img/whatsapp-icon.svg" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li class="menu mx-2">
+                            <a href="">
+                                <img src="./assets/img/phone-call-icon.svg" alt="" class="img-fluid">
+                            </a>
+                            <ul class="submenu">
+                                <li> <a href="">India: +91 9645 88 33 33</a></li>
+                                <li> <a href="">UAE: +971 52 9846 177</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button class="btn mx-2" id="btn1">
+                               <span></span> Online Enquiry
+                            </button>
+                        </li>
+                        <li>
+                            <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight">
+                                <span><i class="fa-solid fa-bars fs-1"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- offcanvas start -->
+        <div class="offcanvas offcanvas-end" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li class="menu"><a data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Projects <i class="fa-solid fa-angle-down"></i>
+                        </a>
+
+                        <div class="collapse" id="collapseExample">
+                            <ul class="submenu">
+                                <div><a href="">Kochi</a></div>
+                                <div><a href="">Trivandrum</a></div>
+                                <div><a href="">Trissur</a></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a  data-bs-toggle="collapse" href="#collapseExample_1" role="button"
+                            aria-expanded="false" aria-controls="collapseExample_1">
+                            About Us <span><i class="fa-solid fa-angle-down"></i></span>
+                        </a>
+
+                        <div class="collapse" id="collapseExample_1">
+                            <ul class="submenu">
+                                <li> <div><a href="">Company Profile</a></div></li>
+                                <li> <div><a href="">Varma Touch</a></div></li>
+                                <li><div><a href="">Testimonials</a></div></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Joint Venture Enquiry</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Media Center</a></li>
+                    <li><a href="">EMI Calculator</a></li>
+                    <li><a href="">Refer & Earn</a></li>
+                    <button class="btn" id="view_details">Quick Contact</button>
+                </ul>
+                
+            </div>
+        </div>
+        <!-- offcanvas end -->
+    </header>
+    <!-- --------------------------------------------------------------------- -->
+    <!-- HEADER END ------------------------------------------------------------->
+    <!-- ARTICLE TAG START--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <article id="article_tag">
+        <!--  banner section start-->
+        <section id="banner_section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="fw-bold"><b>Company Profile</b></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  banner section end-->
+        <!-- About Varma Homes section start -->
+        <section id="about_varma_homes_section">
+            <div class="container">
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col about-col my-5">
+                        <div class="about-">
+                            <img src="./assets/img/Company_profile_img/varma-homes.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col about-col">
+                        <h3 class="py-2"><b>About Varma Homes</b></h3>
+                        <p>Varma Homes Private Limited is a company incorporated in 2016 under the Indian Companies Act
+                            2013. Years of expertise in the industry taught us that real happiness can only be found
+                            when the homes built are of quality.</p>
+                        <p>
+                            At Varma Homes, we are focused on fulfilling a legacy, as we embark on a mission to turn the
+                            idea of owning a dream home, into a happy reality. In all these years of building perfect
+                            homes, we have made our customer's happiness our number one priority. This is the reason why
+                            we envision, plan, and execute every home diligently and deliver them timely so that our
+                            customers can experience the exuberance of owning a home. Our ample facilities, location
+                            advantages, and host of amenities make sure that they indulge in a unique lifestyle.</p>
+                        <p>
+                            Currently, with premium projects that span across Kochi, Thiruvananthapuram, and Thrissur,
+                            Varma Homes is set on a vision of building quality homes in Kerala’s premium locations. Our
+                            customers prefer value for money hence with our expertise in design capabilities and strong
+                            technical team, the houses are built with proper space management and construction at the
+                            most economical cost. This has earned us the title of Kerala’s trusted builder; with every
+                            new project, we execute in our homeland.</p>
+                    </div>
+                </div>
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+
+                    <div class="col about-col">
+                        <div class="padding">
+                            <h5 class="py-2"> Vision Statement</h5>
+                            <p>
+                                Varma Homes values customer happiness above all. We envision to have a clarity in our
+                                thought
+                                processes which would eventually pave way to build quality homes delivered on time and
+                                aspire
+                                for the betterment of the environment, the general public, and our business.
+                            </p>
+
+                            <h5 class="py-2"> Mission Statement</h5>
+                            <p>
+                                We, at Varma Homes, Real Estate Developers Kochi, Kerala have always believed in
+                                Constructing
+                                Happiness for our customers who believe in investing safely in happy homes for
+                                generations to
+                                come.
+                            </p>
+
+                            <p>
+                                We have maintained our exceptional quality and high standards over the years and this
+                                includes
+                                choosing vendors and partners who are equally responsible so that our customers have
+                                only the
+                                best.
+                            </p>
+
+                            <p>We, at Varma Homes strive to satisfy all stakeholders, investors, and employees.</p>
+
+
+                        </div>
+                    </div>
+                    <div class="col about-col ">
+                        <div class="about-">
+                            <img src="./assets/img/Company_profile_img/varma-vision-mission.jpg" alt=""
+                                class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Varma Homes section end -->
+        <!-- Leadership section start -->
+        <section id="leadership_section">
+            <div class="container">
+                <h4 class="text-center pb-5">Leadership</h4>
+                <div class="row">
+                    <div class="col">
+                        <img src="./assets/img/Company_profile_img/anil-varma.jpg" alt="" class="img-fluid">
+                        <div class="content">
+                            <h5> <b>Mr. K Anil Varma</b></h5>
+                            <p class="text-pink">MANAGING DIRECTOR</p>
+                        </div>
+                        <div class="paragrabh">
+                            <p>
+                                Mr. Anil Varma's tryst with construction dates back to '89 when he graduated with a
+                                degree in
+                                civil engineering, a diploma in construction management from Bangalore university and he
+                                is an
+                                alumni of IIM Bangalore. He worked with some of the major builders across South India
+                                until
+                                1996. Mr. Anil Varma is an entrepreneur since 1996 when he founded Varma Constructions,
+                                crafting
+                                lifestyle spaces including hospitals, apartment and villas for major builders in and
+                                across
+                                Kerala. From there on, there has been no looking back. He partnered with two others in
+                                2006 when
+                                Asset Homes was established, serving as one of its Director until 2016. With over 25
+                                years of
+                                experience he had the urge and the drive to go that extra mile and create Varma Homes.
+                                Currently
+                                Varma Homes has total 20 residential projects in the cities of Kochi, Thiruvananthapuram
+                                and
+                                Thrissur. Out of these, 8 projects delivered ahead of schedule and the construction of
+                                all the
+                                other projects are progressing fast. The company plans to launch new residential
+                                projects
+                                shortly in Kozhikode and other locations in Kerala as well.
+                            </p>
+
+                            <p> A man of many accolades, he serves as the Joint Secretary of CREDAI Kochi, Joint
+                                Secretary of
+                                Kerala Management Association (KMA), Executive Committee Member of BAI Kochi, Chartered
+                                Engineer, Fellow of the Institution of Engineers (India), Approved Valuer, Registered
+                                'A' Grade
+                                Engineer (LSGD), member of ASAP (Additional Skill Acquisition Programme- Government of
+                                Kerala),
+                                past President of Rotary Club, past President of ACE (Association of Construction
+                                Engineers),
+                                member of GRACE (Graduate Association of Civil Engineers), and Charter President of MVJ
+                                College
+                                of Engineering Alumni. Additionally, he is a member of the Cochin Gymkhana Club,
+                                Engineers Club,
+                                Tripunithura Cricket Club, RSC (Regional Sports Centre- Kochi), CIAL Golf Club, and the
+                                Fine
+                                Arts Society.</p>
+
+                            <p> Anil Varma is married to Dr. Mini Varma, also a Director of the Company. They are
+                                blessed with a
+                                daughter, Arathy Varma.</p>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="./assets/img/Company_profile_img/mini-varma.jpg" alt="" class="img-fluid">
+                        <div class="content">
+                            <h5> <b>Dr. Mini Varma</b></h5>
+                            <p class="text-pink">DIRECTOR</p>
+                        </div>
+                        <div class="paragrabh">
+                            <p>
+                                Mini Varma, an Ayurvedic Doctor by profession, is the other Director of the company. She
+                                is a nature enthusiast and her passion lies in incorporating nature friendly spaces into
+                                daily living. Visiting faculty of Major Ayurveda Institutions, With the support and
+                                guidance from her, he plans on engineering green eco - friendly spaces that complement
+                                nature and giving more than just ordinary to their CSR segment.
+                            </p>
+                            <p> An avid reader and a passionate singer, she is an active member(also the past president)
+                                of the Rotary Inner Wheel Club, Cochin Gymkhana Club and RSC (Regional Sports Centre-
+                                Kochi).</p>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Leadership section end -->
+        <!-- Brand Philosophy section start -->
+        <section id="brand_philosophy_section">
+            <div class="container">
+                <div class="row row-col-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="brand-img">
+                            <img src="./assets/img/Company_profile_img/real-estate-developer.jpg" alt=""
+                                class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="brand-content-1">
+                            <h5>Brand Philosophy</h5>
+                            <h6> A LEGACY OF FINE LIVING</h6>
+                            <p>
+                                At Varma Homes, we are focused on fulfilling a legacy, as we embark on a mission to turn
+                                the
+                                idea of owning a dream home, into a happy reality. In all these years of building
+                                perfect
+                                homes, we have made our customer's happiness our number one priority. This is the reason
+                                why
+                                we envision, plan, and execute every home diligently and deliver them timely so that our
+                                customers can experience the exuberance of owning a home. Our ample facilities, location
+                                advantages, and host of amenities make sure that they indulge in a unique lifestyle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-col-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="brand-content-2">
+                            <h5>Quality Policy</h5>
+                            <p>Delivering quality is foundation to the way that we do business. Our Quality Policy is
+                                based
+                            <div class="wright">
+                                <ul class="wright-content my-auto">
+                                    <li> <img src="./assets/img/Company_profile_img/icons8-check-24.png" alt=""> "Do it
+                                        Right First Time, Every Time"</li>
+                                    <li><img src="./assets/img/Company_profile_img/icons8-check-24.png" alt="">"Go
+                                        Beyond Client Quality Expectations"</li>
+                                    <li><img src="./assets/img/Company_profile_img/icons8-check-24.png"
+                                            alt="">"Integrity & Transparency"</li>
+                                    <li><img src="./assets/img/Company_profile_img/icons8-check-24.png" alt="">"Deliver
+                                        On Time With Care"</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="brand-img">
+                            <img src="./assets/img/Company_profile_img/quality-builders.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-col-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="brand-img">
+                            <img src="./assets/img/Company_profile_img/green-builders.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="brand-content-3">
+
+                            <h5> Eco Initiatives</h5>
+                            <p>
+                                ZERO wastage policy. Years of experience has helped us realise the amount of wastage
+                                involved in constructing not only homes, but any structure for that matter. We plan on
+                                making use of every component that goes into construction judiciously and responsibly
+                                for
+                                some good purpose or the other, involved in our projects. We are also an IGBCE LEED
+                                Certificate holder.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-col-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="brand-content-4">
+                            <h5>CSR</h5>
+                            <p>
+                                Mission 2+2. According to the rule book, CSR involves contributing 2% of the profit
+                                towards the society. Or in other words, giving back to the society. You could say we
+                                have a large heart. Our 2+2 policy involves giving back to you more, if it means a
+                                better livelihood for all sections of the society.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="brand-img">
+                            <img src="./assets/img/Company_profile_img/csr-policy.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Brand Philosophy section end -->
+        <!-- verma home section start -->
+        <section id="veram_home_section">
+            <div class="containe-lg">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="./assets/img/logo-white.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="content">
+                            <p>
+                                Since its inception, Varma Homes has been established as the most trusted builder in
+                                Kerala.
+                                Beginning with residential projects in Kochi, we have carved a niche for ourselves in
+                                Thiruvananthapuram, Thrissur, Calicut, and many more , as a top builder in Kerala.
+                            </p>
+                            <p>
+                                At Varma Homes, we have embraced our unique position as industry pioneers to transform
+                                the real
+                                estate landscape in Kerala, particularly in terms of project completion. We take pride
+                                in our
+                                splendid track record of completing all projects ahead of schedule. With us, your legacy
+                                is in
+                                safe hands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- verma home section end -->
+    </article>
+    <!-- ARTICLE TAG END--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- FOOTER START --------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-lg-4 ">
+                <div class="col-lg-3">
+                    <h5>GET STARTED</h5>
+                    <div class="content">
+                        <h6>Talk to Us</h6>
+                        <span><a href="#">+91 9645 88 33 33</a></span>,<span><a href="#">+91 484 298 0258</a></span>
+                        <span><a href="#">UAE: +971 52 9846 177</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6>E-mail</h6>
+                        <span><a href="#">mail@varmahomes.com</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6 class="my_uderline">Corporate Office at Cochin</h6>
+                        <span>VARMA HOMES PRIVATE LIMITED<br>
+                            G-129, 55/938(A), 3rd Cross Road<br>
+                            Panampilly Nagar, Cochin - 682 036</span>
+                        <span><a href="#">+91 484 796 2559</a></span>
+                    </div>
+                    <div class="content">
+                        <h6>Thiruvananthapuram</h6>
+                        <span>Edapazhanji, Sasthamangalam P.O<br>
+                            Thiruvananthapuram - 695 010</span>
+                        <span><a href="#">+91 471 2319258</a></span>,<span><a href="#">+91 9072 96 4444</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6>Thrissur</h6>
+                        <span>Puthur Road, Chelakkottukara,
+                            Thrissur - 680005</span>
+                        <span><a href="#">+91 487 2446 258</a></span>,<span><a href="#">+91 9539 29 33 33</a></span>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 d-flex">
+                    <div class="col">
+                        <h5>USEFUL LINKS</h5>
+                        <ul>
+                            <li class="hover"><a href="#">Projects in Kochi</a></li>
+                            <li><a href="#">Projects in Trivandrum</a></li>
+                            <li><a href="#">Projects in Thrissur</a></li>
+                            <li><a href="#">All Projects in Kerala</a></li>
+                            <li><a href="#">Home Loan EMI Calculator</a></li>
+                            <li><span> <a href="#">News</a></span>| <span><a href="#">Media</a></span></li>
+                            <li><a href="#">Varma Touch</a></li>
+                            <li><a href="#">Joint Venture</a></li>
+                            <li><a href="#">Refer & Earn</a></li>
+                            <li><span><a href="#">About us</a> </span>| <span><a href="">Blogs</a></span></li>
+                            <li><a href="#">Customer Stories</a></li>
+                            <li><a href="#">Key Handing Over</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Disclaimer Privacy Policy</a></li>
+                            <li><a href="#">Booking Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h5>POPULAR SEARCHES</h5>
+                        <ul>
+                            <li><a href="#">Best Builders in Cochin</a></li>
+                            <li><a href="#">Trusted Builders in Kerala</a></li>
+                            <li><a href="#">Residential Projects in Kerala</a></li>
+                            <li><a href="#">Apartments in Kochi</a></li>
+                            <li><a href="#">Apartments in Thrissur</a></li>
+                            <li><a href="#">Apartments in Trivandrum</a></li>
+                            <li><a href="">Top Builders in Kerala</a></li>
+                            <li><a href="#">Luxury Apartments in Kochi</a></li>
+                            <li><a href="#">Budget Apartments in Kochi</a></li>
+                            <li><a href="#">New Flats in Thrissur</a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <h2></h2>
+                    <button class="btn" id="btn1"><span></span>Book an Online Cansultation</button>
+                    <div class="row py-3">
+                        <div class="col-lg-3">
+                            <img src="./assets/img/credai.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/kma.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/bai.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/igbc.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h5 class="p-0 m-0 mb-1">Stay Tuned</h5>
+                        <p class="p-0">
+                            Subscribe to our newsletter & never miss our updates, latest news, blogs etc.
+                        </p>
+                    </div>
+                    <div class="row d-flex row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2">
+                        <div class="col-lg-8 mt-3">
+                            <input type="text" placeholder="Email Address" style="height:45px;width:250px;padding:4px">
+                            <label for="">Enter Email Address</label>
+                        </div>
+                        <div class="col-lg-4 mr-0">
+                            <button class="btn" id="view_details" style="background-color: #ED1651; width:80px;"><i
+                                    class="fa-regular fa-paper-plane text-white"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="row d-flex row-cols-lg-5 row-cols-md-5 row-cols-sm-5 row-cols-5">
+                        <div class="col-lg-2">
+                            <div class="circle">
+                                <span><i class="fa-brands fa-facebook-f"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="circle">
+                                <span><i class="fa-brands fa-instagram"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="circle">
+                                <span><i class="fa-brands fa-twitter"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="circle">
+                                <span><i class="fa-brands fa-linkedin-in"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="circle">
+                                <span> <i class="fa-brands fa-youtube"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row text-center" id="upper_arrow">
+                <div class="col">
+                    <p>© Varma Homes. All Rights Reserved</p>
+                    <h2 class="text-center m-5"><a href="#">
+                            <span"><i class="fa-solid fa-arrow-up-wide-short text-pink"></i></span>
+                        </a></h2>
+                </div>
+            </div>
+
+    </footer>
+    <!-- FOOTER END--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+
+    <!-- swiper link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- aos link for js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bootstrap link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome link for js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <!-- folder link for js -->
+    <script src="./assets/js/style.js"></script>
+
+</body>
+
+</html>

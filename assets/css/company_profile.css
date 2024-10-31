@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* ....article tag start... */
+#article_tag{
+    background-color:white;
+    height:auto;
+}
+/* ...banner section start.. */
+#banner_section{
+    //background-color:green;
+    background:linear-gradient(to right,rgba(191, 58, 93, 0.8),rgba(24, 136, 221, 0.8)),url(../img/Company_profile_img/bg4.jpg) no-repeat;
+    background-size:110%;
+    background-position:center;
+    height:180px;  
+}
+#banner_section h3{
+    padding:70px 60px;
+    color:white;  
+}
+/* ...banner section end.. */
+/* ....about varma homes section start.... */
+#about_varma_homes_section{
+    height:auto;
+}
+
+#about_varma_homes_section .about-col{
+    padding:50px 10px;
+    flex-wrap:wrap;
+}
+#about_varma_homes_section .about-col .padding{
+    padding:100px 0px;
+}
+/* ....about varma homes section end.... */
+/* ....leadership section start... */
+#leadership_section{
+    background-color:#F4F7F6;
+    height:auto;   
+    padding:50px 0px;
+}
+   
+#leadership_section .row .col{
+    background-color:white;
+    position:relative;
+    
+}
+#leadership_section .row .col img{
+    border-radius:50%;
+    height:150px;
+    padding:20px 10px 10px 20px;
+}
+#leadership_section .row .col .content {
+    margin:40px auto 40px 0px;
+    position:absolute;
+    top:0;
+    left:190px;
+}
+#leadership_section .row .col .content p{
+    font-size:12px;
+}
+#leadership_section .row .col .paragrabh{
+    padding:10px 20px;
+}
+
+/* ....leadership section end... */
+/* ...brand philosophy section start..*/
+#brand_philosophy_section{
+    height:auto;
+    padding:50px 0px;
+}
+#brand_philosophy_section .brand-content-1{
+    padding:70px 0px;
+}
+#brand_philosophy_section .brand-content-2{
+    padding:80px 0px;
+}
+#brand_philosophy_section .brand-content-3{
+    padding:120px 0px;
+}
+#brand_philosophy_section .brand-content-4{
+    padding:130px 0px;
+}
+#brand_philosophy_section .brand-img{
+    padding:30px 0px;
+
+}
+#brand_philosophy_section .brand-content-2 .wright-content{
+    list-style:none;   
+}
+#brand_philosophy_section .brand-content-2 .wright-content li{
+    padding:10px 0px;
+}
+#brand_philosophy_section .brand-content .wright-content li img{
+    width:18px;
+    height:18px;
+    margin:0px 4px;
+}
+ 
+
+
+/* ...brand philosophy section end..*/
+/* ....article tag start... */

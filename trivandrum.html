@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home:Varma Homes</title>
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <!-- swiper js link for css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- bootstrap link for css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- font awsome link for css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- aos link for css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  My folder link for css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/trivandrum.css">
+</head>
+
+<body>
+    <!-- HEADER START ----------------------------------------------------------->
+    <!--------------------------------------------------------------------------->
+    <header id="my_header">
+        <div class="container-fluid">
+            <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-3">
+                <div class="col-lg-2 ">
+                    <ul class="start-0">
+                        <li><a href="">
+                                <img src="./assets/img/logo.svg" alt="" class="img-fluid mx-auto ">
+                            </a></li>
+                    </ul>
+
+
+                </div>
+                <div class="col-lg-6 ">
+                    <nav>
+                        <ul class="navbar">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="menu"> <a href=""> Projects <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="submenu">
+                                    <li> <a href="kochi.html">Kochi</a></li>
+                                    <li> <a href="trivandrum.html">Trivandrum</a></li>
+                                    <li><a href="thrissur.html">Thrissur</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu"> <a href="">About Us<i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="submenu">
+                                    <li> <a href="company_profile.html">Company Profile</a></li>
+                                    <li> <a href="varma_touch.html">Varma Touch</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="">Gallery</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="d-flex end-0">
+                        <li>
+                            <a href="">
+                                <img src="./assets/img/whatsapp-icon.svg" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li class="menu mx-2">
+                            <a href="">
+                                <img src="./assets/img/phone-call-icon.svg" alt="" class="img-fluid">
+                            </a>
+                            <ul class="submenu">
+                                <li> <a href="">India: +91 9645 88 33 33</a></li>
+                                <li> <a href="">UAE: +971 52 9846 177</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button class="btn mx-2" id="btn1">
+                               <span></span> Online Enquiry
+                            </button>
+                        </li>
+                        <li>
+                            <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight">
+                                <span><i class="fa-solid fa-bars fs-1"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- offcanvas start -->
+        <div class="offcanvas offcanvas-end" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li class="menu"><a data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Projects <i class="fa-solid fa-angle-down"></i>
+                        </a>
+
+                        <div class="collapse" id="collapseExample">
+                            <ul class="submenu">
+                                <div><a href="">Kochi</a></div>
+                                <div><a href="">Trivandrum</a></div>
+                                <div><a href="">Trissur</a></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a  data-bs-toggle="collapse" href="#collapseExample_1" role="button"
+                            aria-expanded="false" aria-controls="collapseExample_1">
+                            About Us <span><i class="fa-solid fa-angle-down"></i></span>
+                        </a>
+
+                        <div class="collapse" id="collapseExample_1">
+                            <ul class="submenu">
+                                <li> <div><a href="">Company Profile</a></div></li>
+                                <li> <div><a href="">Varma Touch</a></div></li>
+                                <li><div><a href="">Testimonials</a></div></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Joint Venture Enquiry</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Media Center</a></li>
+                    <li><a href="">EMI Calculator</a></li>
+                    <li><a href="">Refer & Earn</a></li>
+                    <button class="btn" id="view_details">Quick Contact</button>
+                </ul>
+                
+            </div>
+        </div>
+        <!-- offcanvas end -->
+    </header>
+    <!-- --------------------------------------------------------------------- -->
+    <!-- HEADER END ------------------------------------------------------------->
+    <!-- ARTICLE TAG START--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <article id="article_tag">
+
+        <!-- banner section start -->
+        <section id="banner_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col py-5">
+                        <h4 class="py-3"><b>Flats and Apartments in Trivandrum</b></h4>
+                        <p>A flat in Trivandrum with everlasting value to the homebuyers and the comfort of living in
+                            the apartments with superior finish is something everyone desires while buying a home.
+                            Here’s a solution if you crave for residential apartments in Trivandrum with a range of
+                            amenities. Varma Homes offers you multiple projects with Luxury Apartments in Trivandrum at
+                            the prime locations of the city. With the trending demand & craving of investors to
+                            capitalize on quality styled apartments, we craft our residential projects that adopt the
+                            blend of all modern and traditional comforts. Being the trustworthy builders in Trivandrum,
+                            we provide quality-bound, cost effective and innovative housing solutions to develop homes
+                            that best serve your expectations with timely delivery assured.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- banner section end -->
+        <!-- image section start -->
+        <section id="image_section">
+            <div class="container">
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="image_box">
+                            <div class="image">
+                                <a href="">
+                                    <img src="./assets/img/Trivandrum_img/varma-sreekaryam-trivandrum.jpg" alt=""
+                                        class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="padding-head">
+                                    <h2 class="title">Varma Sreekaryam</h2>
+                                    <h5 class="subtitle">2/3 BHK Luxury Apartments | Work in Progress</h5>
+                                </div>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> <b>Sreekaryam,
+                                        Trivandrum</b></span>
+                                <div class="row" class="table-content">
+                                    <div class="col">
+                                        <h6 class="heading">Contact now</h6>
+                                        <p class="paragraph"> for the price details</p>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="heading">Super Built-Up Area: </h6>
+                                        <p class="paragraph">988 - 1687 Sq. Ft</p>
+                                    </div>
+                                </div>
+                                <span class="right_1">
+                                    <i class="fa-solid fa-check"></i>&nbsp;
+                                    Red bricks construction</span><br>
+                                <span class="right_2"><i class="fa-solid fa-check"></i>&nbsp;
+                                    Book now and avail special offers</span><br>
+                                <button class="btn" id="view_details"><span></span>View Details</button>
+                                <button class="btn" id="view_details_5"><span></span>Quick Enquiry</button>
+                                <p>K-RERA/PRJ/TVM/101/2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image_box">
+                            <div class="image">
+                                <a href="">
+                                    <img src="./assets/img/Trivandrum_img/varma-suburban-trivandrum.jpg" alt=""
+                                        class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="padding-head">
+                                    <h2 class="title">Varma Suburban</h2>
+                                    <h5 class="subtitle">2/3 BHK Luxury Apartments | Work in Progress</h5>
+                                </div>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> <b>Kazhakkoottam,
+                                        Trivandrum</b></span>
+                                <div class="row" class="table-content">
+                                    <div class="col">
+                                        <h6 class="heading">Contact Now</h6>
+                                        <p class="paragraph"> for the price details</p>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="heading">Super Built-Up Area: </h6>
+                                        <p class="paragraph">1044 - 1448 Sq. Ft</p>
+                                    </div>
+                                </div>
+                                <span class="right_1">
+                                    <i class="fa-solid fa-check"></i>&nbsp;
+                                    Access to best centres of education, infrastructure, lifestyle, etc.</span><br>
+                                <span class="right_2"><i class="fa-solid fa-check"></i>&nbsp;
+                                    Book now and avail special offers</span><br>
+                                <button class="btn" id="view_details"><span></span>View Details</button>
+                                <button class="btn" id="view_details_5"><span></span>Quick Enquiry</button>
+                                <p>K-RERA/PRJ/TVM/076/2022</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="image_box">
+                            <div class="image">
+                                <a href="">
+                                    <img src="./assets/img/Trivandrum_img/varma-pais-legacy.jpg" alt=""
+                                        class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="padding-head">
+                                    <h2 class="title">Varma Dr. Pai's Legacy</h2>
+                                    <h5 class="subtitle">2/3 BHK Luxury Apartments | Ready to Occupy</h5>
+                                </div>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> <b>Poojappura,
+                                        Trivandrum</b></span>
+                                <div class="row table-content">
+                                    <div class="col">
+                                        <h6 class="heading">Contact Now</h6>
+                                        <p class="paragraph"> for the price details</p>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="heading">Super Built-Up Area: </h6>
+                                        <p class="paragraph">1087 - 1671 Sq. Ft</p>
+                                    </div>
+                                </div>
+                                <span class="right_1">
+                                    <i class="fa-solid fa-check"></i>&nbsp;
+                                    Prime spot of premium access in Trivandrum</span><br>
+                                <span class="right_2"><i class="fa-solid fa-check"></i>&nbsp;
+                                    Red bricks construction</span><br>
+                                <button class="btn" id="view_details"><span></span>View Details</button>
+                                <button class="btn" id="view_details_5"><span></span>Quick Enquiry</button>
+                                <p>K-RERA/PRJ/076/2021</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image_box">
+                            <div class="image">
+                                <a href="">
+                                    <img src="./assets/img/Trivandrum_img/varma-pais-heritage.jpg" alt=""
+                                        class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="padding-head">
+                                    <h2 class="title">Varma Dr. Pai's Heritage</h2>
+                                    <h5 class="subtitle">2/3 BHK Super Luxury Apartments</h5>
+                                </div>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> <b>Poojappura,
+                                        Trivandrum</b></span>
+                                <div class="row table-content">
+                                    <div class="col">
+                                        <h6 class="heading">Completed</h6>
+                                        <p class="paragraph"> Ahead of Schedule</p>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="heading">Super Built-Up Area: </h6>
+                                        <p class="paragraph">1119 - 1581 Sq. Ft</p>
+                                    </div>
+                                </div>
+                                <span class="right_1">
+                                    <i class="fa-solid fa-check"></i>&nbsp;
+                                    Project was completed ahead of schedule</span><br>
+                                <span class="right_2"><i class="fa-solid fa-check"></i>&nbsp;
+                                    Made with red bricks</span><br>
+                                <button class="btn" id="view_details"><span></span>View Details</button>
+                                <button class="btn" id="view_details_5"><span></span>Quick Enquiry</button>
+                                <p>K-RERA/PRJ/362/2020</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- image section end -->
+        <!-- read more section start -->
+        <section id="read_more_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <h4> Buy your Dream Flat in Trivandrum at the Best Price</h4>
+                        <p> Owning a cozy and great home is a dream for everyone, especially when it comes to buying a
+                            flat
+                            in Trivandrum, the iconic destination of Kerala. The joy becomes multifold when it’s a
+                            secure
+                            apartment with all the advanced amenities, and facilities, and in a land rich in serenity.
+                            Trivandrum is one such spectacular place with a strong community that provides everything
+                            you
+                            need with a protected space for bachelors and families alike. It is a place that boasts a
+                            serene
+                            atmosphere with cultural, historical, and social destinations to offer your life the best
+                            moments. If you’re keen to find new flats for sale in Thiruvananthapuram, flats for sale in
+                            Kochi and Thrissur, Varma Homes have got your back! Delve deep into our ongoing, completed,
+                            and
+                            ready-to-occupy flats in Thiruvananthapuram, the city of rapid developments.</p>
+
+                        <h4> 2/3 BHK Apartments & New Flats for Sale in Trivandrum</h4>
+                        <p>Buying a 2 BHK flat in Trivandrum would be sufficient for a nuclear family or bachelors,
+                            however, a large family would need to look out for 3 & 4 BHK Apartments. Get the promise of
+                            having sufficient bedroom and room spaces to guarantee peace within the family while also
+                            being
+                            able to enjoy privacy. Trivandrum is poised for its greatest development with Technopark
+                            under
+                            the Phase-III expansion, the introduction of metro rail, and Vizhinjam International
+                            Seaport,
+                            the place is going to fire a boom in job opportunities making it the most ideal place to
+                            live.
+                            We offer the finest luxury flats in Trivandrum in major locations like Sreekaryam,
+                            Poojapura,
+                            and Kazhakootam— bringing the touch of reality to the home of your dreams. Isn’t it exciting
+                            to
+                            have the best apartments for sale in Trivandrum to bring prosperity throughout your life?
+                            Feel
+                            the comfort of the job, connectivity, technology, and lifestyle with the apartments in
+                            Thiruvananthapuram from Varma Homes.</p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <h4>Grab Apartments in Trivandrum from Most Trusted Builders</h4>
+                                <p>
+                                    Varma Homes envision offering your dream luxury apartments with all the amenities, a
+                                    range of community features, ecosystems, technological advancements, world-class
+                                    lifestyle, and technical features at the best rates in Trivandrum. We have a
+                                    plethora of ongoing and ready-to-move projects with apartments for sale in
+                                    Trivandrum that magnify the high living standards in the city. Our luxury houses in
+                                    Kerala maintain the best as a home with ideal floor built-up size, BHKs for your
+                                    choice, and under various price ranges to befriend with your pocket. We also have a
+                                    range of compact apartments in Trivandrum to let you enjoy the home of your comfort
+                                    in the prime locations of the city. Finally making you a proud homeowner with all
+                                    your expectations fulfilled through the reliable builders in Trivandrum is assured
+                                    to you.
+                                </p>
+                                <h4>Why Invest in a Flat in Trivandrum?</h4>
+                                <p>
+                                    Being the capital city of the state, Trivandrum in Kerala is one of the most
+                                    promising locations in terms of quality of life, job opportunities, transportation,
+                                    and accessibility to other amenities. The city takes pride in being a
+                                    well-established destination with high civic infrastructural possibilities. The
+                                    largest IT Park in Asia based on area, Techno Park is situated in Trivandrum. The
+                                    other attractions are Techno City, Smart City project, Trivandrum International
+                                    Airport, Vizhinjam International Seaport, World Trade Centre, Lulu Shopping Mall,
+                                    Nissan Digital Hub, and the major Trivandrum outer growth corridor project. Being a
+                                    hub of growth in terms of infrastructure, health care, lifestyle, and other
+                                    facilities, Trivandrum has witnessed massive growth in terms of real estate and
+                                    investment opportunities. Owing to the demand growth of industries and businesses,
+                                    there is a surge in demand for housing projects in Trivandrum. Our expertise in
+                                    offering low-cost flats in Trivandrum and luxury apartments in Trivandrum with a
+                                    focus on the benchmarks played in innovation and quality has made us the most
+                                    credible builders in Kerala with an exclusive range of properties for a world-class
+                                    living.
+                                </p>
+                                <h4>Why Varma Homes for Apartments in Thiruvananthapuram?</h4>
+                                <p>
+                                    At Varma Homes, we realize your need for the best-in-class flats for sale in
+                                    Trivandrum with proximity to the community, shared spaces, and great private spaces
+                                    to enjoy serene life. With a strong reputation in the marketplace, timely project
+                                    delivery, and quality in construction, we gift you the finest luxury houses in
+                                    Kerala. Equipped with advanced facilities and amenities, we assure enhanced
+                                    convenience for the residents. We keep customer satisfaction a priority and focus on
+                                    providing after-sales support. We offer 2 & 3 BHK flats in Trivandrum while also
+                                    ensuring the legal and regulatory requirements are met with the satisfaction of a
+                                    hassle-free buying procedure. Finding the right flat in Thiruvananthapuram is no any
+                                    more a complicated task, but as easy as pie with us.
+                                </p>
+                                <h4>Ready To Occupy Flats In Thiruvananthapuram</h4>
+                                <p>
+                                    With the focus on enhancing the ease of living with ready-to-occupy apartments, or
+                                    ready to occupy flats in Trivandrum Varma Homes have a clean lens envisioned to
+                                    bestow a comfortable experience. Our perfection in the minute detail of crafting
+                                    versatile apartments in Kerala has filled the minds of people with quality,
+                                    aesthetics, and value for money. Get ready to occupy luxury houses in Kerala at the
+                                    heart of Trivandrum which has received a huge response from people. Buy your 2/3/4
+                                    BHK apartments in Thrissur, Kochi and Trivandrum from the leading builders and
+                                    developers in Kerala, which especially builds the perfect home for Techies and
+                                    families. Find the best quality apartment in Kerala of your choice with no
+                                    compromise in the quality, and the ecosystem you demand.
+                                </p>
+
+                            </div>
+                        </div>
+                        <button class="btn bg-pink btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                            id="para">Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- read more section end -->
+        <!-- asked questions section start -->
+        <section id="ask_questions_section">
+            <div class="container">
+                <h4 class="text-center"><b>Frequently Asked Questions</b></h4>
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="text-div">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_1" aria-expanded="false"
+                                aria-controls="collapseExample_1">
+                                Which are the best residential areas in Trivandrum?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse" id="collapseExample_1">
+                                <div class="card card-body">
+                                    Kazhakuttam, Vattiyoorkav, Peroorkada, and Palayam are a few of the best residential
+                                    areas in Trivandrum.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="text-div">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_2" aria-expanded="false"
+                                aria-controls="collapseExample_2">
+                                What facilities do you offer in apartments in Trivandrum?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse" id="collapseExample_2">
+                                <div class="card card-body">
+                                    The common amenities offered in our projects in Trivandrum are swimming pool, indoor
+                                    games hall, a well laid out children's play area, a driver's room, centralized gas
+                                    supply, etc. Eco features like rainwater harvesting, a landscaped garden, and solar
+                                    power for select common area lights are also offered in our apartments.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-div">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_3" aria-expanded="false"
+                                aria-controls="collapseExample_3">
+                                Which are the ongoing projects of Varma Homes in Trivandrum?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse " id="collapseExample_3">
+                                <div class="card card-body">
+                                    Varma Suburban, and Varma Dr. Pai's Legacy Days are the ongoing apartment projects
+                                    in Trivandrum by Varma Homes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-div">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_4" aria-expanded="false"
+                                aria-controls="collapseExample_4">
+                                Which luxury apartments in Trivandrum are the most popular among searchers?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse" id="collapseExample_4">
+                                <div class="card card-body">
+                                    Varma Sreekaryam, Varma Suburban, and Varma Dr. Pai's Legacy are the best Super
+                                    Luxury apartments in Trivandrum.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="text-div_2">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_6" aria-expanded="false"
+                                aria-controls="collapseExample_6">
+                                Which are the best residential apartments in Trivandrum?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse" id="collapseExample_6">
+                                <div class="card card-body">
+                                    Varma Sreekaryam, Varma Dr. Pai's Legacy, and Varma Suburban
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-div_2">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_7" aria-expanded="false"
+                                aria-controls="collapseExample_7">
+                                Are there any apartments available near Technopark in Trivandrum?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse" id="collapseExample_7">
+                                <div class="card card-body">
+                                    Varma Suburban is located in Kazhakootam near Technopark in Thiruvananthapuram. It
+                                    offers apartment units with 2BHK and 3BHK options.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-div_2">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_8" aria-expanded="false"
+                                aria-controls="collapseExample_8">
+                                Do you have any RERA-registered flats in Trivandrum?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse" id="collapseExample_8">
+                                <div class="card card-body">
+                                    All our flats are RERA registered.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- asked questions section end -->
+          <!-- verma home section start -->
+        <section id="veram_home_section">
+            <div class="containe-lg">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="./assets/img/logo-white.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="content">
+                            <p>
+                                Since its inception, Varma Homes has been established as the most trusted builder in
+                                Kerala.
+                                Beginning with residential projects in Kochi, we have carved a niche for ourselves in
+                                Thiruvananthapuram, Thrissur, Calicut, and many more , as a top builder in Kerala.
+                            </p>
+                            <p>
+                                At Varma Homes, we have embraced our unique position as industry pioneers to transform
+                                the real
+                                estate landscape in Kerala, particularly in terms of project completion. We take pride
+                                in our
+                                splendid track record of completing all projects ahead of schedule. With us, your legacy
+                                is in
+                                safe hands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- verma home section end -->
+
+    </article>
+
+    <!-- ARTICLE TAG END--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- FOOTER START --------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-lg-4 ">
+                <div class="col-lg-3">
+                    <h5>GET STARTED</h5>
+                    <div class="content">
+                        <h6>Talk to Us</h6>
+                        <span><a href="#">+91 9645 88 33 33</a></span>,<span><a href="#">+91 484 298 0258</a></span>
+                        <span><a href="#">UAE: +971 52 9846 177</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6>E-mail</h6>
+                        <span><a href="#">mail@varmahomes.com</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6 class="my_uderline">Corporate Office at Cochin</h6>
+                        <span>VARMA HOMES PRIVATE LIMITED<br>
+                            G-129, 55/938(A), 3rd Cross Road<br>
+                            Panampilly Nagar, Cochin - 682 036</span>
+                        <span><a href="#">+91 484 796 2559</a></span>
+                    </div>
+                    <div class="content">
+                        <h6>Thiruvananthapuram</h6>
+                        <span>Edapazhanji, Sasthamangalam P.O<br>
+                            Thiruvananthapuram - 695 010</span>
+                        <span><a href="#">+91 471 2319258</a></span>,<span><a href="#">+91 9072 96 4444</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6>Thrissur</h6>
+                        <span>Puthur Road, Chelakkottukara,
+                            Thrissur - 680005</span>
+                        <span><a href="#">+91 487 2446 258</a></span>,<span><a href="#">+91 9539 29 33 33</a></span>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 d-flex">
+                    <div class="col">
+                        <h5>USEFUL LINKS</h5>
+                        <ul>
+                            <li class="hover"><a href="#">Projects in Kochi</a></li>
+                            <li><a href="#">Projects in Trivandrum</a></li>
+                            <li><a href="#">Projects in Thrissur</a></li>
+                            <li><a href="#">All Projects in Kerala</a></li>
+                            <li><a href="#">Home Loan EMI Calculator</a></li>
+                            <li><span> <a href="#">News</a></span>| <span><a href="#">Media</a></span></li>
+                            <li><a href="#">Varma Touch</a></li>
+                            <li><a href="#">Joint Venture</a></li>
+                            <li><a href="#">Refer & Earn</a></li>
+                            <li><span><a href="#">About us</a> </span>| <span><a href="">Blogs</a></span></li>
+                            <li><a href="#">Customer Stories</a></li>
+                            <li><a href="#">Key Handing Over</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Disclaimer Privacy Policy</a></li>
+                            <li><a href="#">Booking Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h5>POPULAR SEARCHES</h5>
+                        <ul>
+                            <li><a href="#">Best Builders in Cochin</a></li>
+                            <li><a href="#">Trusted Builders in Kerala</a></li>
+                            <li><a href="#">Residential Projects in Kerala</a></li>
+                            <li><a href="#">Apartments in Kochi</a></li>
+                            <li><a href="#">Apartments in Thrissur</a></li>
+                            <li><a href="#">Apartments in Trivandrum</a></li>
+                            <li><a href="">Top Builders in Kerala</a></li>
+                            <li><a href="#">Luxury Apartments in Kochi</a></li>
+                            <li><a href="#">Budget Apartments in Kochi</a></li>
+                            <li><a href="#">New Flats in Thrissur</a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <h2></h2>
+                    <button class="btn" id="btn1"><span></span>Book an Online Cansultation</button>
+                    <div class="row py-3">
+                        <div class="col-lg-3">
+                            <img src="./assets/img/credai.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/kma.png" alt="" class="img-fluid" >
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/bai.png" alt="" class="img-fluid" >
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/igbc.png" alt="" class="img-fluid" >
+                        </div>        
+                    </div>
+                    <div class="content">
+                        <h5 class="p-0 m-0 mb-1">Stay Tuned</h5>
+                        <p class="p-0">
+                            Subscribe to our newsletter & never miss our updates, latest news, blogs etc.
+                        </p>
+                    </div>
+                <div class="row d-flex row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2">
+                    <div class="col-lg-8 mt-3">
+                        <input type="text" placeholder="Email Address"   style="height:45px;width:250px;padding:4px">
+                        <label for="">Enter Email Address</label>
+                    </div>
+                    <div class="col-lg-4 mr-0">
+                        <button class="btn" id="view_details" style="background-color: #ED1651; width:80px;"><i class="fa-regular fa-paper-plane text-white"></i></button>
+                       
+                    </div>
+                </div>
+                <div class="row d-flex row-cols-lg-5 row-cols-md-5 row-cols-sm-5 row-cols-5">
+                    <div class="col-lg-2">
+                        <div class="circle">
+                            <span><i class="fa-brands fa-facebook-f"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="circle">
+                            <span><i class="fa-brands fa-instagram"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="circle">
+                            <span><i class="fa-brands fa-twitter"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="circle">
+                            <span><i class="fa-brands fa-linkedin-in"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="circle">
+                           <span> <i class="fa-brands fa-youtube"></i></span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row text-center" id="upper_arrow">
+                <div class="col">
+                    <p >© Varma Homes. All Rights Reserved</p>
+        <h2 class="text-center m-5"><a href="#"><span"><i class="fa-solid fa-arrow-up-wide-short text-pink"></i></span></a></h2>
+                </div>
+        </div>
+       
+    </footer>
+    <!-- FOOTER END--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- FIXED BUTTON START --------------------------------------------->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- modal start -->
+    <!-- Button trigger modal -->
+    <button class="btn" id="fixed_btn" type="button" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#exampleModal"><span class="fs-1 py-1"><i class="fa-solid fa-comments"></i></span></i></button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                    <img src="./assets/img/Kochi_img/varma 2 logo.jpeg" alt="" class="">
+                    <button class="btn" id="reload-btn"><span class="reload"><i
+                                class="fa-solid fa-rotate-right"></i></span></button>
+                    <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class=" row user d-flex">
+                        <div class="col-1">
+                            <span><i class="fa-solid fa-user"></i></span>
+                        </div>
+                        <div class="col-11 ">
+                            <div class="message-content">
+                                <p>Hello, greetings for the day, how may I assist you?</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="user-type-msg">
+                                <input type="text" class="form-control" placeholder="Type your message...">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn bg-pink btn-primary"><span><i
+                                        class="fa-regular fa-paper-plane"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <!-- FIXED BUTTON END ---------------------------------------------------->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- swiper link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- aos link for js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bootstrap link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome link for js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <!-- folder link for js -->
+    <script src="./assets/js/style.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home:Varma Homes</title>
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <!-- swiper js link for css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- bootstrap link for css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- font awsome link for css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- aos link for css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  My folder link for css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/thrissur.css">
+</head>
+
+<body>
+    <!-- HEADER START ----------------------------------------------------------->
+    <!--------------------------------------------------------------------------->
+    <header id="my_header">
+        <div class="container-fluid">
+            <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-3">
+                <div class="col-lg-2 ">
+                    <ul class="start-0">
+                        <li><a href="">
+                                <img src="./assets/img/logo.svg" alt="" class="img-fluid mx-auto ">
+                            </a></li>
+                    </ul>
+
+
+                </div>
+                <div class="col-lg-6 ">
+                    <nav>
+                        <ul class="navbar">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="menu"> <a href=""> Projects <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="submenu">
+                                    <li> <a href="kochi.html">Kochi</a></li>
+                                    <li> <a href="trivandrum.html">Trivandrum</a></li>
+                                    <li><a href="thrissur.html">Thrissur</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu"> <a href="">About Us<i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="submenu">
+                                    <li> <a href="company_profile.html">Company Profile</a></li>
+                                    <li> <a href="varma_touch.html">Varma Touch</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                </ul>
+                            </li>
+                            <li> <a href="">Gallery</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="d-flex end-0">
+                        <li>
+                            <a href="">
+                                <img src="./assets/img/whatsapp-icon.svg" alt="" class="img-fluid">
+                            </a>
+                        </li>
+                        <li class="menu mx-2">
+                            <a href="">
+                                <img src="./assets/img/phone-call-icon.svg" alt="" class="img-fluid">
+                            </a>
+                            <ul class="submenu">
+                                <li> <a href="">India: +91 9645 88 33 33</a></li>
+                                <li> <a href="">UAE: +971 52 9846 177</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button class="btn mx-2" id="btn1">
+                               <span></span> Online Enquiry
+                            </button>
+                        </li>
+                        <li>
+                            <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                aria-controls="offcanvasRight">
+                                <span><i class="fa-solid fa-bars fs-1"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- offcanvas start -->
+        <div class="offcanvas offcanvas-end" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li class="menu"><a data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Projects <i class="fa-solid fa-angle-down"></i>
+                        </a>
+
+                        <div class="collapse" id="collapseExample">
+                            <ul class="submenu">
+                                <div><a href="">Kochi</a></div>
+                                <div><a href="">Trivandrum</a></div>
+                                <div><a href="">Trissur</a></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu">
+                        <a  data-bs-toggle="collapse" href="#collapseExample_1" role="button"
+                            aria-expanded="false" aria-controls="collapseExample_1">
+                            About Us <span><i class="fa-solid fa-angle-down"></i></span>
+                        </a>
+
+                        <div class="collapse" id="collapseExample_1">
+                            <ul class="submenu">
+                                <li> <div><a href="">Company Profile</a></div></li>
+                                <li> <div><a href="">Varma Touch</a></div></li>
+                                <li><div><a href="">Testimonials</a></div></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li> <a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Joint Venture Enquiry</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Media Center</a></li>
+                    <li><a href="">EMI Calculator</a></li>
+                    <li><a href="">Refer & Earn</a></li>
+                    <button class="btn" id="view_details">Quick Contact</button>
+                </ul>
+                
+            </div>
+        </div>
+        <!-- offcanvas end -->
+    </header>
+    <!-- --------------------------------------------------------------------- -->
+    <!-- HEADER END ------------------------------------------------------------->
+    <!-- ARTICLE TAG START--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <article id="article_tag">
+
+        <!-- banner section start -->
+        <section id="banner_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col py-5">
+                        <h4 class="py-3"><b>Apartments and flats in Thrissur</b></h4>
+                        <p>A comfortable, budget-friendly, and beautifully constructed home is the dream of any
+                            homebuyer. Building great homes that match the expectations and requirements of the
+                            customers also needs to meet the factors like affordability, quality, and credibility of the
+                            builders. Being the most trustworthy and reliable builders in Thrissur, we create an amazing
+                            blend of style and affordability with the flats and apartments in Thrissur. Welcome your
+                            eyes and heart to the best-constructed apartments and Flat For Sale In Thrissur built with
+                            the promise of offering you the comfort you demand. Get 2,3, and 4 BHK luxury apartments in
+                            Thrissur that help you live in the iconic destinations of the city while being at your
+                            favorite place to relax, and spend time.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- banner section end -->
+        <!-- image section start -->
+        <section id="image_section">
+            <div class="container">
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="image_box">
+                            <div class="image">
+                                <a href="">
+                                    <img src="./assets/img/Thrissur_img/varma-downtown.jpg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="padding-head">
+                                    <h2 class="title">Downtown by Varma</h2>
+                                    <h5 class="subtitle">2/3 BHK Luxury Apartments</h5>
+                                </div>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> <b>Near Swaraj Round,
+                                        Thrissur</b></span>
+                                <div class="row" class="table-content">
+                                    <div class="col">
+                                        <h6 class="heading">Avail New Launch Offer*</h6>
+                                        <p class="paragraph"> Limited Time Offer</p>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="heading">Super Built-Up Area: </h6>
+                                        <p class="paragraph">1140 - 1747 Sq. Ft</p>
+                                    </div>
+                                </div>
+                                <span class="right_1">
+                                    <i class="fa-solid fa-check"></i>&nbsp;
+                                    Book now to avail new launch offer</span><br>
+                                <span class="right_2"><i class="fa-solid fa-check"></i>&nbsp;
+                                    HURRY! New launch offer avilable only for few units.</span><br>
+                                <button class="btn" id="view_details"><span></span>View Details</button>
+                                <button class="btn" id="view_details_5"><span></span> Quick Enquiry</button>
+                                <p>K-RERA/PRJ/TSR/110/2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image_box">
+                            <div class="image">
+                                <a href="">
+                                    <img src="./assets/img/Thrissur_img/varma-spectrum.jpg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <div class="padding-head">
+                                    <h2 class="title">Varma Spectrum</h2>
+                                    <h5 class="subtitle">2/3 BHK Luxury Apartments</h5>
+                                </div>
+                                <span class="location"><i class="fa-solid fa-location-dot"></i> <b>Opp. to Bhavan's
+                                        Vidya Mandir, Poochatti, Thrissur</b></span>
+                                <div class="row" class="table-content">
+                                    <div class="col">
+                                        <h6 class="heading">Sold Out</h6>
+                                        <p class="paragraph"> Completed Project</p>
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="heading">Super Built-Up Area: </h6>
+                                        <p class="paragraph">985 - 1371 Sq. Ft</p>
+                                    </div>
+                                </div>
+                                <span class="right_1">
+                                    <i class="fa-solid fa-check"></i>&nbsp;
+                                    Located close to NH and opp. to Bhavan’s Vidya Mandir</span><br>
+                                <span class="right_2"><i class="fa-solid fa-check"></i>&nbsp;
+                                    Live an enriching life full of joy and festivities</span><br>
+                                <button class="btn" id="view_details"><span></span>View Details</button>
+                                <button class="btn" id="view_details_5"><span></span> Quick Enquiry</button>
+                                <p>K-RERA/PRJ/091/2020</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- image section end -->
+        <!-- read more section start -->
+        <section id="read_more_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <h4> Luxury Flats In Thrissur For An Affordable Living</h4>
+                        <p>Redefine your luxurious lifestyle with the Flats In Thrissur For Sale that Varma Homes has
+                            for you. Being the most awarded builder in Thrissur, we have earned a tag of giving life to
+                            the best Luxury Apartment For Sale In Thrissur to attract both investors and residents
+                            alike. With ultra-modern amenities, coveted location, and exceptional quality for the
+                            apartments and flats in Thrissur, we make it convenient for the customers to get fulfilled
+                            with the actual comfort of homes. Thrissur is well known as the cultural capital of Kerala
+                            and rich in its tradition of culture, art, and festivals.</p>
+
+                        <p>Thrissur is also one of the most investor-friendly places in Kerala, with strong banking,
+                            bullion, and business acumen in place. The headquarters of the core banks and financial
+                            institutions is also at Thrissur. The reputation that the clean and green city beholds,
+                            along with the InfoPark, educational institutions, healthcare facilities, jewelry
+                            manufacturing, and highly adorned tourism attract investors to this place. Get Luxury flats
+                            from premium trusted builders in Kerala to let your life experience the blend of convenience
+                            and luxury while sticking to your budget with Varma Homes.</p>
+
+
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <h4>2/3 BHK Apartments & New Flats for Sale in Thrissur</h4>
+                                <p>
+                                    Praised as the “God’s own country”, Kerala beholds the pride of natural splendor
+                                    with its beautiful landscapes, attractive waterfalls, serene hilltops, and many
+                                    more. Thrissur is the center of high-quality infrastructure and a plethora of
+                                    transportation facilities. Being the most desired location to live and work across
+                                    the state, Thrissur has stunning choices for real estate developments with
+                                    residential and commercial properties.
+
+                                    Thrissur is one of the ideal locations in the state with accessibility to the best
+                                    ready-to-occupy 2BHK and 3BHK flats in Kerala. If you are planning to buy an
+                                    apartment or flat in Kerala, Varma Homes is one of the finest choices and the most
+                                    credible builders in Thrissur.
+
+                                    Varma Homes have consistently developed numerous projects that keep selling out
+                                    quickly due to the dominance in the city, features, and facilities available.Our
+                                    expertise has given us the confidence to provide customers with what they wish from
+                                    a service. Consequently, in every initiative and for every project, we have
+                                    meticulously planned them to meet the expectations of consumers.
+                                </p>
+                                <h4>Buy Apartments in Thrissur from Top Builders in Kerala</h4>
+                                <p>
+                                    Being the most prominent builders in Thrissur, Varma Homes is dedicated to
+                                    constructing the most advanced, innovative, quality-bound, and sustainable premium
+                                    flats. With modern architecture and the latest technology incorporated, our flats in
+                                    Thrissur travel the extra mile to keep the customers the happiest. We work to make a
+                                    positive rapport with the partners, customers, employees, and everyone who is
+                                    involved in the efforts to make the ideal choices that give life to the best-ever
+                                    luxury flats in Kerala and stunning apartments in Thrissur.
+                                </p>
+                                <h4>Why Varma Homes for Apartments in Thiruvananthapuram?</h4>
+                                <p>
+                                    At Varma Homes, we realize your need for the best-in-class flats for sale in
+                                    Trivandrum with proximity to the community, shared spaces, and great private spaces
+                                    to enjoy serene life. With a strong reputation in the marketplace, timely project
+                                    delivery, and quality in construction, we gift you the finest luxury houses in
+                                    Kerala. Equipped with advanced facilities and amenities, we assure enhanced
+                                    convenience for the residents. We keep customer satisfaction a priority and focus on
+                                    providing after-sales support. We offer 2 & 3 BHK flats in Trivandrum while also
+                                    ensuring the legal and regulatory requirements are met with the satisfaction of a
+                                    hassle-free buying procedure. Finding the right flat in Thiruvananthapuram is no any
+                                    more a complicated task, but as easy as pie with us.
+                                </p>
+                                <h4>Why should you invest in a flat in Thrissur?</h4>
+                                <p>
+                                    Kerala’s cultural capital with its rich heritage of aesthetics and a vast number of
+                                    investment opportunities—Thrissur is an old town with plenty of opportunities for
+                                    the people who live there. The Infopark in Koratty Thrissur has opened the way to
+                                    the growing IT hubs, making real estate the leading phase of the market. With the
+                                    robust and growing real estate market, customers have identified builders in
+                                    Thrissur most reliable due to the options available for you to innovate
+                                    continuously. The clean and green ecosystem Thrissur provides promotes, and protects
+                                    the residents with favorable weather that adds to the comfort of homebuyers. With
+                                    more establishments that open up in the trade capital of the state, Thrissur has
+                                    been destined to grab the attention of every investor.
+                                </p>
+
+                                <h4>Let Varma Homes realize your dream of luxury flats in Thrissur</h4>
+                                <p>We proudly offer our clients quality-specific residential projects accustomed to
+                                    cater
+                                    to the requirements of the clients and move beyond their expectations. Our team of
+                                    expert architects works with the clients to make sure that each detail gets
+                                    considered
+                                    and that the outcome is a beautiful living space that matches your expectations. We
+                                    work
+                                    hard to offer amazing customer service and provide the projects on time while
+                                    sticking
+                                    to the budget. With vast experience in the construction of quality homes, Varma
+                                    Homes
+                                    have touched the hearts of customers through great value for money. We serve
+                                    everything
+                                    that ranges from compact homes to Luxury Thrissur Apartments at the core locations,
+                                    with
+                                    the motto of making efforts to provide residential spaces for all. Being the best
+                                    builder in Kerala with a plethora of RERA-registered projects, Varma Homes hold the
+                                    pride of delivering what your heart craves.</p>
+
+                                <h4> Ready To Occupy Flats and Apartments In Thrissur</h4>
+                                <p> We have a couple of ongoing, completed, and Ready To Occupy Apartments In Thrissur
+                                    which
+                                    serve you with adherence to innovation, quality, and moves in line with the advanced
+                                    architecture. While you think of buying an Ongoing Apartments In Thrissur, think of
+                                    Varma Homes and you’ll never get disappointed. We give priority to the location and
+                                    pay
+                                    in-depth attention to make all projects worth your investment, striving in the best
+                                    possible way to give the most consideration to the quality. We pay attention to not
+                                    just
+                                    building the four walls, but to shaping the best community through ready to move
+                                    best
+                                    flats in Thrissur that assigns every project with high living facilities that
+                                    fulfill
+                                    your desires with more Flats For Sale Thrissur.</p>
+
+                                <h4>Grab Premium flats in Thrissur at Coveted Destinations</h4>
+                                <p> At Varma Homes, we believe that we are responsible for making your vision into
+                                    reality.
+                                    We plan to innovate and fill the drawing board while putting serious efforts into
+                                    constructing happy homes for our customers. We build homes that are worth aspiring
+                                    for
+                                    and that inspire you. We also create experiences that make your aspirations for
+                                    beautiful homes true and worth waiting for Premium Apartments In Thrissur.
+
+                                    We have built impeccable credibility over the years by building a strong foundation
+                                    of
+                                    punctuality, quality, and promptness in the service we provide. In addition to the
+                                    projects in Apartments For Sale In Thrissur, we are the top builders in Kerala with
+                                    flats for sale in Kochi and apartments in Trivandrum. Our flats and apartments and
+                                    the
+                                    commercial spaces in the major destinations of Kerala have paved the way to the
+                                    Goodwill, we have earned over the past years of experience if you interested to Buy
+                                    Flats In Thrissur come with us.</p>
+
+                            </div>
+                        </div>
+                        <button class="btn bg-pink btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                            id="para">Read More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- read more section end -->
+        <!-- asked questions section start -->
+        <section id="ask_questions_section">
+            <div class="container">
+                <h4 class="text-center"><b>Frequently Asked Questions</b></h4>
+                <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                    <div class="col">
+                        <div class="text-div">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_1" aria-expanded="false"
+                                aria-controls="collapseExample_1">
+                                Is purchasing a flat in Thrissur a wise investment?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse" id="collapseExample_1">
+                                <div class="card card-body">
+                                    Yes, purchasing a flat in Thrissur is a wise investment as it is one of the rapidly
+                                    growing cities in Kerala. Thrissur, the cultural capital of Kerala, boasts a rich
+                                    cultural heritage, robust infrastructure, excellent educational institutions,
+                                    healthcare facilities, and entertainment options. Thrissur has become a significant
+                                    IT destination in Kerala with the establishment of Infopark in Koratty, making the
+                                    city an attractive location for working professionals.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="text-div_2">
+                            <button class="btn bg-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseExample_6" aria-expanded="false"
+                                aria-controls="collapseExample_6">
+                                Which is the best place to settle in Thrissur?
+                                <span><i class="fa-solid fa-plus"></i></span>
+                            </button>
+                            <div class="collapse" id="collapseExample_6">
+                                <div class="card card-body">
+                                    The best place to settle in Thrissur depends on your preferences and ease of access.
+                                    Varmahomes offers flats in prime locations such as Poochatti and near Swarag Nagar,
+                                    with high-end amenities.
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- asked questions section end -->
+          <!-- verma home section start -->
+        <section id="veram_home_section">
+            <div class="containe-lg">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="./assets/img/logo-white.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="content">
+                            <p>
+                                Since its inception, Varma Homes has been established as the most trusted builder in
+                                Kerala.
+                                Beginning with residential projects in Kochi, we have carved a niche for ourselves in
+                                Thiruvananthapuram, Thrissur, Calicut, and many more , as a top builder in Kerala.
+                            </p>
+                            <p>
+                                At Varma Homes, we have embraced our unique position as industry pioneers to transform
+                                the real
+                                estate landscape in Kerala, particularly in terms of project completion. We take pride
+                                in our
+                                splendid track record of completing all projects ahead of schedule. With us, your legacy
+                                is in
+                                safe hands.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- verma home section end -->
+
+    </article>
+
+    <!-- ARTICLE TAG END--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- FOOTER START --------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-lg-4 ">
+                <div class="col-lg-3">
+                    <h5>GET STARTED</h5>
+                    <div class="content">
+                        <h6>Talk to Us</h6>
+                        <span><a href="#">+91 9645 88 33 33</a></span>,<span><a href="#">+91 484 298 0258</a></span>
+                        <span><a href="#">UAE: +971 52 9846 177</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6>E-mail</h6>
+                        <span><a href="#">mail@varmahomes.com</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6 class="my_uderline">Corporate Office at Cochin</h6>
+                        <span>VARMA HOMES PRIVATE LIMITED<br>
+                            G-129, 55/938(A), 3rd Cross Road<br>
+                            Panampilly Nagar, Cochin - 682 036</span>
+                        <span><a href="#">+91 484 796 2559</a></span>
+                    </div>
+                    <div class="content">
+                        <h6>Thiruvananthapuram</h6>
+                        <span>Edapazhanji, Sasthamangalam P.O<br>
+                            Thiruvananthapuram - 695 010</span>
+                        <span><a href="#">+91 471 2319258</a></span>,<span><a href="#">+91 9072 96 4444</a></span>
+                    </div>
+
+                    <div class="content">
+                        <h6>Thrissur</h6>
+                        <span>Puthur Road, Chelakkottukara,
+                            Thrissur - 680005</span>
+                        <span><a href="#">+91 487 2446 258</a></span>,<span><a href="#">+91 9539 29 33 33</a></span>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 d-flex">
+                    <div class="col">
+                        <h5>USEFUL LINKS</h5>
+                        <ul>
+                            <li class="hover"><a href="#">Projects in Kochi</a></li>
+                            <li><a href="#">Projects in Trivandrum</a></li>
+                            <li><a href="#">Projects in Thrissur</a></li>
+                            <li><a href="#">All Projects in Kerala</a></li>
+                            <li><a href="#">Home Loan EMI Calculator</a></li>
+                            <li><span> <a href="#">News</a></span>| <span><a href="#">Media</a></span></li>
+                            <li><a href="#">Varma Touch</a></li>
+                            <li><a href="#">Joint Venture</a></li>
+                            <li><a href="#">Refer & Earn</a></li>
+                            <li><span><a href="#">About us</a> </span>| <span><a href="">Blogs</a></span></li>
+                            <li><a href="#">Customer Stories</a></li>
+                            <li><a href="#">Key Handing Over</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Disclaimer Privacy Policy</a></li>
+                            <li><a href="#">Booking Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h5>POPULAR SEARCHES</h5>
+                        <ul>
+                            <li><a href="#">Best Builders in Cochin</a></li>
+                            <li><a href="#">Trusted Builders in Kerala</a></li>
+                            <li><a href="#">Residential Projects in Kerala</a></li>
+                            <li><a href="#">Apartments in Kochi</a></li>
+                            <li><a href="#">Apartments in Thrissur</a></li>
+                            <li><a href="#">Apartments in Trivandrum</a></li>
+                            <li><a href="">Top Builders in Kerala</a></li>
+                            <li><a href="#">Luxury Apartments in Kochi</a></li>
+                            <li><a href="#">Budget Apartments in Kochi</a></li>
+                            <li><a href="#">New Flats in Thrissur</a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <h2></h2>
+                    <button class="btn" id="btn1"><span></span>Book an Online Cansultation</button>
+                    <div class="row py-3">
+                        <div class="col-lg-3">
+                            <img src="./assets/img/credai.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/kma.png" alt="" class="img-fluid" >
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/bai.png" alt="" class="img-fluid" >
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="./assets/img/igbc.png" alt="" class="img-fluid" >
+                        </div>        
+                    </div>
+                    <div class="content">
+                        <h5 class="p-0 m-0 mb-1">Stay Tuned</h5>
+                        <p class="p-0">
+                            Subscribe to our newsletter & never miss our updates, latest news, blogs etc.
+                        </p>
+                    </div>
+                <div class="row d-flex row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2">
+                    <div class="col-lg-8 mt-3">
+                        <input type="text" placeholder="Email Address"   style="height:45px;width:250px;padding:4px">
+                        <label for="">Enter Email Address</label>
+                    </div>
+                    <div class="col-lg-4 mr-0">
+                        <button class="btn" id="view_details" style="background-color: #ED1651; width:80px;"><i class="fa-regular fa-paper-plane text-white"></i></button>
+                       
+                    </div>
+                </div>
+                <div class="row d-flex row-cols-lg-5 row-cols-md-5 row-cols-sm-5 row-cols-5">
+                    <div class="col-lg-2">
+                        <div class="circle">
+                            <span><i class="fa-brands fa-facebook-f"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="circle">
+                            <span><i class="fa-brands fa-instagram"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="circle">
+                            <span><i class="fa-brands fa-twitter"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="circle">
+                            <span><i class="fa-brands fa-linkedin-in"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="circle">
+                           <span> <i class="fa-brands fa-youtube"></i></span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row text-center" id="upper_arrow">
+                <div class="col">
+                    <p >© Varma Homes. All Rights Reserved</p>
+        <h2 class="text-center m-5"><a href="#"><span"><i class="fa-solid fa-arrow-up-wide-short text-pink"></i></span></a></h2>
+                </div>
+        </div>
+       
+    </footer>
+    <!-- FOOTER END--------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- FIXED BUTTON START --------------------------------------------->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- modal start -->
+    <!-- Button trigger modal -->
+    <button class="btn" id="fixed_btn" type="button" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#exampleModal"><span class="fs-1 py-1"><i class="fa-solid fa-comments"></i></span></i></button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                    <img src="./assets/img/Kochi_img/varma 2 logo.jpeg" alt="" class="">
+                    <button class="btn" id="reload-btn"><span class="reload"><i
+                                class="fa-solid fa-rotate-right"></i></span></button>
+                    <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class=" row user d-flex">
+                        <div class="col-1">
+                            <span><i class="fa-solid fa-user"></i></span>
+                        </div>
+                        <div class="col-11 ">
+                            <div class="message-content">
+                                <p>Hello, greetings for the day, how may I assist you?</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="row">
+                        <div class="col-10">
+                            <div class="user-type-msg">
+                                <input type="text" class="form-control" placeholder="Type your message...">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn bg-pink btn-primary"><span><i
+                                        class="fa-regular fa-paper-plane"></i></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+    <!-- FIXED BUTTON END ---------------------------------------------------->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- swiper link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- aos link for js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bootstrap link for js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome link for js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <!-- folder link for js -->
+    <script src="./assets/js/style.js"></script>
+
+</body>
+
+</html>

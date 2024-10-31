@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* ....article tag start... */
+#article_tag{
+    background-color:white;
+    height:auto;
+}
+/* ...banner section start.. */
+#banner_section{
+    //background-color:green;
+    background:linear-gradient(to right,rgba(191, 58, 93, 0.8),rgba(24, 136, 221, 0.8)),url(../img/Varma_touch_img/bg5.jpg) no-repeat;
+    background-size:110%;
+    background-position:center;
+    height:180px;  
+}
+#banner_section h3{
+    padding:70px 60px;
+    color:white;  
+}
+/* ...banner section end.. */
+/* ...varma faimily section start... */
+#varma_faimily_section{
+   
+}
+#varma_faimily_section .container{
+    padding:30px 130px;
+}
+#varma_faimily_section h3{
+    padding:20px 0px;
+}
+#varma_faimily_section h5{
+    padding:20px 0px;
+}
+
+/* ...varma faimily section end... */
+/* division section start */
+#division_section{
+    //background-color:pink;
+
+}
+#division_section .container-fluid{
+    padding:0px 40px;
+    
+}
+#division_section .container-fluid .row .img-col{
+    border:2px solid white;
+    margin:10px;
+    background-color:#F4F7F6;
+    text-align:center;
+    box-shadow:0px 0px 3px gray;
+}
+#division_section .img-box{
+  // background-color:black;
+   width:100px;
+   height:100px;
+   text-align:center;
+}
+#division_section h5{
+    margin:5px 0px;
+}
+#division_section h6{
+    margin:20px 0px;
+}
+/* division section end */
+
+
+
+/* responsive page  start */
+
+@media screen and (max-width:992px)
+{
+    #varma_faimily_section .container{
+        padding:30px 100px;
+    }
+}
+@media screen and (max-width:768px){
+    #varma_faimily_section .container{
+        padding:30px 80px;
+    }
+}
+@media screen and (max-width:576px){
+    #varma_faimily_section .container{
+        padding:30px 50px;
+    }
+}
+/* responsive page  end */

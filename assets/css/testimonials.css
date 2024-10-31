@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* ....article tag start... */
+#article_tag{
+    background-color:white;
+    height:auto;
+}
+/* ...banner section start.. */
+#banner_section{
+    background:linear-gradient(to right,rgba(191, 58, 93, 0.8),rgba(24, 136, 221, 0.8)),url(../img/Testimonials_img/bg6.jpg) no-repeat;
+    background-size:110%;
+    background-position:center;
+    height:180px;  
+}
+#banner_section h3{
+    padding:70px 60px;
+    color:white;  
+}
+/* ...banner section end.. */
+/* varma gallery section start */
+#varma_gallery_section{
+    height:auto;
+    padding:40px 0px;
+    margin:0px auto;
+}
+
+ #varma_gallery_section .gallery-col{
+    position:relative;
+    border-radius:20px;   
+    overflow:hidden;
+ }
+ #varma_gallery_section .gallery-col .gallery-items.hide{
+    display:none;
+    
+ }
+#varma_gallery_section .gallery-col .img-caption {
+    position:absolute;   
+     left:0;
+     bottom:0px;
+     right:0;
+     top:0;
+     color:white;
+     z-index:3;
+     border-radius:20px;   
+} 
+#varma_gallery_section .gallery-col .img-caption:hover {
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+#varma_gallery_section .gallery-col .img-caption .caption{
+    color:white;
+    position:relative;
+}
+#varma_gallery_section .gallery-col .img-caption .caption h4{
+    font-size:18px;
+}
+#varma_gallery_section .gallery-col .img-caption .caption span{
+    font-size:15px
+}
+ #varma_gallery_section .gallery-col .img-caption .play{
+    position:relative;
+    text-align:center;
+    width:60px;
+    height:45px;
+   
+} 
+
+#varma_gallery_section .gallery-col .img-caption .play button{
+     display:none;
+     position:relative;
+     text-align:center;
+     padding:70px auto 0px;
+     border:none;
+     
+}
+
+#varma_gallery_section .gallery-col .img-caption:hover button{
+    display:block;
+    text-align:center;
+    position:relative;
+   align-items:center;
+    
+}
+.pagination{
+    width: 100%;
+    margin: 20px auto;
+   // text-align: center;
+    justify-content:center;
+    }
+    .pagination div{
+    display: inline-block;
+    color: gray;
+    margin: 0px 10px;
+    }
+.pagination .prev, .pagination .next{
+      color: black;
+        border: 1px solid black;
+        font-size:20px;
+        padding: 8px 20px;
+        transition: all 0.4s;
+        cursor: pointer;
+ }
+ .pagination .page{
+     padding: 8px 20px;
+    font-size:20px;
+ }
+/* varma gallery section end */
+  
+
+/* reponsive page */
+
+@media screen and (max-width:576px){
+    /* #varma_gallery_section .gallery-col .img-caption .caption{
+        
+       
+        margin:0px auto 20px auto;
+        
+    }
+    #varma_gallery_section .gallery-col .img-caption .caption h4{
+        font-size:14px;
+    }
+    #varma_gallery_section .gallery-col .img-caption .caption span{
+        font-size:7px
+    } */
+}
