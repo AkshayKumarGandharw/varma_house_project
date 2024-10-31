@@ -429,7 +429,7 @@ header .offcanvas-body ul .menu:hover .submenu{
     border-radius:3px;
     margin:15px 0px;
 }
-..circle_for_arrow{
+.circle_for_arrow{
 width:40px;
 height:40px;
 background-color:gray;
@@ -692,10 +692,6 @@ background-color:gray;
     background:linear-gradient(rgba(5,5,5,0.5),rgba(5,5,5,0.5));
 
 }
-#news .carousel-item{
-   // position:relative;
-    border:2px solid red;
-}
 
 #news .carousel-item .news-content,.blog-content{
     position:relative;
@@ -791,34 +787,57 @@ footer  ul li  a {
    border-bottom:none;
   
 }
-footer  ul li a:hover{
-   color:#ED1651;
-   border-bottom:2px solid #ED1651; 
- //  animation : border 0.5s ease;
-   transition:all 0.4s;
+footer #first #second #social-media{
+   
 }
-.circle{
-    margin:10px 0px;
+footer #first #second #social-media .col-lg-2{
+    border:2px solid black;
+    border-radius:50%;
     width:45px;
     height:45px;
-    border-radius:50%;
-    border:2px solid #ED1651;
+    margin:0px 20px;
+    padding:0px auto;
     position:relative;
 }
-.circle span{
-    
-   position:absolute;
-   text-align:center;
-   padding:10px 12px;
-   
-   
-}
 
-.circle:hover {
+
+footer #first #second #social-media .col-lg-2 .span-1{
+ 
+  position:absolute;
+  text-align:center;
+  margin:0px auto;
+  padding:9px 4px; 
+}
+footer #first #second #social-media .col-lg-2 .span-2,.span-3,.span-4{
+ 
+    position:absolute;
+    text-align:center;
+    margin:0px auto;
+    padding:9px 2px;
+  
+     
+  }
+  
+  footer #first #second #social-media .col-lg-2 .span-5{
+ 
+    position:absolute;
+    text-align:center;
+    margin:0px auto;
+    padding:9px 0px;
+  
+     
+  }
+  footer #first #second #social-media .col-lg-2 span:hover {
    background-color: #ED1651;
    border:2px solid #ED1651;
    color:white;  
-}
+   transition:all 0.5s;
+   width:45px;
+   height:45px;
+   padding:0px;
+   border-radius:50%;
+
+} 
 
 #upper_arrow{
     background-color:#F9F3ED;
@@ -831,22 +850,47 @@ footer .btn-action{
     border:2px solid black;
     background-color:white;
 }
+footer a:hover {
+    color:#ED1651; 
+    padding-bottom:20px;
+    position:relative;
+}
+footer a:hover::before{
+    width:100%;
+}
 
-/* @Keyframes border{
-    0%{
-            width:0%;
-          
-    }
-    100%{
-         
-          width:100%;
-         // border-bottom-color:yellow;
-        
-    } 
-} */
+footer a::before{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    width:0px;
+    height:1px;
+    background-color:#ED1651;
+    transform:translateY(-50%);
+    transition:all 0.5s;
+}
 
+footer #input-text {
+    padding:15px 0px 0px 20px;
+    margin:30px 0px 30px 0px;
+}
+footer #input-text input {
+    height:45px;
+    width:320px;
+    padding:4px;
+}
+footer #input-btn{
+    margin:30px 0px;
+    padding:0px 0px 30px 0px;
+  
+}
+    footer #input-btn button{
+    background-color: #ED1651; 
+    width:80px; 
+    height:45px;
 
-
+}
 /* FOOTER END */
 
 
