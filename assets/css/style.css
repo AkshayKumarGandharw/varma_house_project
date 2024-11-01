@@ -161,30 +161,14 @@ header nav{
 }
 
 header nav ul {
-    line-height:60px;
-    height:60px;
+    line-height:80px;
+    height:80px;
   }
-  header nav ul .menu a{
-   // height:60px;
-    padding:20px 0px;
-    background-color:green;
-  }
-  
-  header nav ul li .submenu {
-          top:74px;
-          z-index:3;
-  } 
-  
-   header nav ul li .submenu li a{
-      padding:20px 20px;
-  } 
-  
-   header nav ul .menu:hover .submenu li{
+header nav ul .menu:hover .submenu{
      box-shadow:0px 0px 5px gray;
-     width:170px;
-     left:-40px;
+     width:250px;
    
-  } 
+  }  
   
   /* -----navbar code----end */
 /*-----------whatsapp/call/button/menu icon ------start */
@@ -194,8 +178,8 @@ header .col-lg-4{
     height:80px; 
 }
 header .col-lg-4  ul {
-       z-index:3;   
-       height:80px;
+    z-index:3;   
+    height:80px;
    }  
 
 header .col-lg-4 ul{
@@ -203,23 +187,16 @@ header .col-lg-4 ul{
     line-height:80px;
 }
 
-header .col-lg-4 ul li .submenu {
-    top:84px; 
-}
-
 header .col-lg-4  ul li a{
     padding:40px 0px;
    
 }
 
-header .col-lg-4  ul .menu:hover .submenu li{
-    width:220px;
-    left:-180px; 
+ header .col-lg-4  ul .menu:hover .submenu {
+    width:250px;
+    right:180px; 
     box-shadow:0px 0px 5px gray;    
-}
-header .col-lg-4  ul li .submenu li a{
-    padding:20px 20px;
-}
+} 
 
 
 /*-----------whatsapp/call/button/menu icon ------end */
@@ -239,38 +216,35 @@ header  ul li a{
     transition:all 0.5s;
 }
 
-/* header ul li :hover{
+ header ul li :hover{
     color:#ED1651; 
-}  */
- header  ul .menu .submenu li{
+}  
+  header  ul .menu .submenu {
     display:none;
-    transition:all 0.9s;
+    border-bottom:2px solid gray;
+    z-index:3;
+    top:80px;
+}  
 
-} 
+  header ul .menu:hover .submenu{
+   display:block;
+   padding:20px 0px;
+   height:auto;
+   background-color:white;
+   padding:10px 20px;
+   border-radius:10px;
+  
+   
+}  
 
-header ul .menu:hover .submenu li{
-    display:block;
-    background-color:white;
-    border-bottom:1px solid gray;
-    position:relative;
-    transition:all 0.9s;
-    padding:0px 20px;
-   // background-color:black;
-
-}
-
-header ul .menu .submenu li{
-    //line-height:20px;
-  padding:10px 0px;
-}
-header ul .menu .submenu a:hover {
+ header ul .menu .submenu a:hover {
     color:#ED1651; 
     padding-left:20px;
     position:relative;
-}
-header ul .menu .submenu a:hover::before{
+} 
+ header ul .menu .submenu a:hover::before{
     width:20px;
-}
+} 
 header ul .menu .submenu a::before{
     content:"";
     position:absolute;
@@ -281,53 +255,54 @@ header ul .menu .submenu a::before{
     background-color:#ED1651;
     transform:translateY(-50%);
     transition:all 0.5s;
-}
+} 
 
- /* header ul .menu:hover .submenu div{
+ header ul .menu:hover .submenu div{
     line-height:40px;
     height:40px;
-    background-color:white;
     color:#ED1651;
     position:relative;
-}  */
-/* header ul .menu .submenu div :hover a{
-    padding-left: 20px;
-    background-color:black;
-} */
+    display:block;
+    width:200px;
+    border-bottom:1px solid gray;
+
+}  
 /* ----comman code header section ---end */
-
-
 
 /*------- offcanvas--------------- start */
  
 header .offcanvas-body ul{
     position:relative;
+    line-height:35px;
+    margin:0px;
+  
+}
+header .offcanvas-body{
+    color:black;
 }
 
-header .offcanvas-body ul li .submenu li a{
-    padding:20px 20px;
-}
-header .offcanvas-body ul .menu:hover .submenu li{
-    position:relative;
-//    border-bottom:1px solid gray;
-
-}
 header .offcanvas-body ul .menu:hover .submenu{
-   width:200px;
-   position:absolute;
-   right:0px;
-   top:50px;
-   padding:0px;
-   box-shadow:0px 0px 5px gray;
+     width:250px;
+     height:auto;
    
-   
+  }  
+  
+  header .offcanvas-body  ul .menu .submenu {
+    border-bottom:2px solid gray;
+    top:0px;
+}  
+
+header .offcanvas-body button{
+    border:1px solid black;
+    margin:20px 0px 0px 0px;
 }
-
-
+header .offcanvas-body button:hover{
+    border:1px solid black;
+}
 
 /*------- offcanvas--------------- end */
 /*---------header scroll---------start */
-
+ 
 .scroll-header{
     background-color:white;
     position:fixed;
@@ -339,6 +314,7 @@ header .offcanvas-body ul .menu:hover .submenu{
 .scroll-header ul li a{
     color:black;
 }
+    
 /*---------header scroll---------start */
 
 /* HEADER END*/

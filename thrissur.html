@@ -40,16 +40,16 @@
                             <li><a href="index.html">Home</a></li>
                             <li class="menu"> <a href=""> Projects <i class="fa-solid fa-angle-down"></i></a>
                                 <ul class="submenu">
-                                    <li> <a href="kochi.html">Kochi</a></li>
-                                    <li> <a href="trivandrum.html">Trivandrum</a></li>
-                                    <li><a href="thrissur.html">Thrissur</a></li>
+                                    <div> <a href="kochi.html">Kochi</a></div>
+                                    <div> <a href="trivandrum.html">Trivandrum</a></div>
+                                    <div><a href="thrissur.html">Thrissur</a></div>
                                 </ul>
                             </li>
                             <li class="menu"> <a href="">About Us<i class="fa-solid fa-angle-down"></i></a>
                                 <ul class="submenu">
-                                    <li> <a href="company_profile.html">Company Profile</a></li>
-                                    <li> <a href="varma_touch.html">Varma Touch</a></li>
-                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                    <div> <a href="company_profile.html">Company Profile</a></div>
+                                    <div> <a href="varma_touch.html">Varma Touch</a></div>
+                                    <div><a href="testimonials.html">Testimonials</a></div>
                                 </ul>
                             </li>
                             <li> <a href="">Gallery</a></li>
@@ -69,13 +69,13 @@
                                 <img src="./assets/img/phone-call-icon.svg" alt="" class="img-fluid">
                             </a>
                             <ul class="submenu">
-                                <li> <a href="">India: +91 9645 88 33 33</a></li>
-                                <li> <a href="">UAE: +971 52 9846 177</a></li>
+                                <div> <a href="">India: +91 9645 88 33 33</a></div>
+                                <div> <a href="">UAE: +971 52 9846 177</a></div>
                             </ul>
                         </li>
                         <li>
                             <button class="btn mx-2" id="btn1">
-                               <span></span> Online Enquiry
+                                <span></span> Online Enquiry
                             </button>
                         </li>
                         <li>
@@ -91,38 +91,25 @@
         <!-- offcanvas start -->
         <div class="offcanvas offcanvas-end" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Varma House </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li class="menu"><a data-bs-toggle="collapse" href="#collapseExample" role="button"
-                            aria-expanded="false" aria-controls="collapseExample">
-                            Projects <i class="fa-solid fa-angle-down"></i>
-                        </a>
-
-                        <div class="collapse" id="collapseExample">
-                            <ul class="submenu">
-                                <div><a href="">Kochi</a></div>
-                                <div><a href="">Trivandrum</a></div>
-                                <div><a href="">Trissur</a></div>
-                            </ul>
-                        </div>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="menu"> <a href=""> Projects <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <div> <a href="kochi.html">Kochi</a></div>
+                            <div> <a href="trivandrum.html">Trivandrum</a></div>
+                            <div><a href="thrissur.html">Thrissur</a></div>
+                        </ul>
                     </li>
-                    <li class="menu">
-                        <a  data-bs-toggle="collapse" href="#collapseExample_1" role="button"
-                            aria-expanded="false" aria-controls="collapseExample_1">
-                            About Us <span><i class="fa-solid fa-angle-down"></i></span>
-                        </a>
-
-                        <div class="collapse" id="collapseExample_1">
-                            <ul class="submenu">
-                                <li> <div><a href="">Company Profile</a></div></li>
-                                <li> <div><a href="">Varma Touch</a></div></li>
-                                <li><div><a href="">Testimonials</a></div></li>
-                            </ul>
-                        </div>
+                    <li class="menu"> <a href="">About Us<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu">
+                            <div> <a href="company_profile.html">Company Profile</a></div>
+                            <div> <a href="varma_touch.html">Varma Touch</a></div>
+                            <div><a href="testimonials.html">Testimonials</a></div>
+                        </ul>
                     </li>
                     <li> <a href="">Gallery</a></li>
                     <li><a href="">Contact Us</a></li>
@@ -135,9 +122,9 @@
                     <li><a href="">Media Center</a></li>
                     <li><a href="">EMI Calculator</a></li>
                     <li><a href="">Refer & Earn</a></li>
-                    <button class="btn" id="view_details">Quick Contact</button>
+                    <button class="btn" id="view_details_2"><span></span>Quick Contact</button>
                 </ul>
-                
+
             </div>
         </div>
         <!-- offcanvas end -->
@@ -486,41 +473,70 @@
     <!-- ------------------------------------------------------------------- -->
     <footer>
         <div class="container">
-            <div class="row row-cols-lg-4 ">
+            <div class="row row-cols-lg-4 " id="first">
                 <div class="col-lg-3">
                     <h5>GET STARTED</h5>
-                    <div class="content">
-                        <h6>Talk to Us</h6>
-                        <span><a href="#">+91 9645 88 33 33</a></span>,<span><a href="#">+91 484 298 0258</a></span>
-                        <span><a href="#">UAE: +971 52 9846 177</a></span>
+                    <div class="col">
+                        <button class="btn bg-pink btn-action" type="button" data-bs-toggle="collapse" data-bs-target="#talk" aria-expanded="true" >
+                            <h6>Talk to Us <div><i class="fa-solid fa-plus"></i></div> </h6>
+                        </button>
+                        <div class="content collapse" id="talk" >
+                           <a href="#">+91 9645 88 33 33</a>,<br><a href="#">+91 484 298 0258</a><br>
+                            <span>UAE:</span><a href="#"> +971 52 9846 177</a>
+                        </div>
                     </div>
-
-                    <div class="content">
-                        <h6>E-mail</h6>
-                        <span><a href="#">mail@varmahomes.com</a></span>
+                   <div class="col">
+                    <button class="btn bg-pink btn-action" type="button" data-bs-toggle="collapse" data-bs-target="#email" aria-expanded="true" >
+                        <h6>E-mail<div><i class="fa-solid fa-plus"></i></div> </h6>
+                    </button>
+                    <div class="content collapse" id="email">
+                        <a href="#">mail@varmahomes.com</a>
                     </div>
-
-                    <div class="content">
-                        <h6 class="my_uderline">Corporate Office at Cochin</h6>
-                        <span>VARMA HOMES PRIVATE LIMITED<br>
-                            G-129, 55/938(A), 3rd Cross Road<br>
-                            Panampilly Nagar, Cochin - 682 036</span>
-                        <span><a href="#">+91 484 796 2559</a></span>
+                   </div>
+                    <div class="col">
+                        <button class="btn bg-pink btn-action" type="button" data-bs-toggle="collapse" data-bs-target="#office" aria-expanded="true" >
+                            <h6 class="my_uderline">Corporate Office at Cochin
+                                <div><i class="fa-solid fa-plus"></i></div> 
+                            </h6>
+                        </button>
+                        <div class="content collapse" id="office">
+                            <h6>VARMA HOMES PRIVATE LIMITED </h6>
+                              <p> G-129, 55/938(A), 3rd Cross Road
+                                Panampilly Nagar, Cochin - 682 036<br>
+                                <a href="#">+91 484 796 2559</a>
+                            </p>
+                            
+                        </div>
                     </div>
-                    <div class="content">
-                        <h6>Thiruvananthapuram</h6>
-                        <span>Edapazhanji, Sasthamangalam P.O<br>
-                            Thiruvananthapuram - 695 010</span>
-                        <span><a href="#">+91 471 2319258</a></span>,<span><a href="#">+91 9072 96 4444</a></span>
+                    <div class="col">
+                        <button class="btn bg-pink btn-action" type="button" data-bs-toggle="collapse" data-bs-target="#thriruvan" aria-expanded="true" >
+                            <h6>Thiruvananthapuram
+                                <div><i class="fa-solid fa-plus"></i></div> 
+                            </h6>
+                        </button>
+                        <div class="content collapse" id="thriruvan"> 
+                            <h6>Edapazhanji, Sasthamangalam </h6>
+                            <p>P.O Thiruvananthapuram - 695 010
+                                <a href="#">+91 471 2319258</a>,<br><a href="#">+91 9072 96 4444</a>
+                            </p>
+                           
+                        </div>
                     </div>
-
-                    <div class="content">
-                        <h6>Thrissur</h6>
-                        <span>Puthur Road, Chelakkottukara,
-                            Thrissur - 680005</span>
-                        <span><a href="#">+91 487 2446 258</a></span>,<span><a href="#">+91 9539 29 33 33</a></span>
+                    <div class="col">
+                        <button class="btn bg-pink btn-action" type="button" data-bs-toggle="collapse" data-bs-target="#thrissur" aria-expanded="true" >
+                            <h6>Thrissur
+                                <div><i class="fa-solid fa-plus"></i></div> 
+                            </h6>
+                        </button>
+                        <div class="content collapse" id="thrissur">
+                            <h6>Puthur Road, Chelakkottukara,</h6>
+                                <p>Thrissur - 680005<br>
+                                    <a href="#">+91 487 2446 258</a>,<br><a href="#">+91 9539 29 33 33</a>
+                                </p>
+                            
+                        </div>
+    
                     </div>
-
                 </div>
                 <div class="col-lg-5 d-flex">
                     <div class="col">
@@ -563,22 +579,22 @@
                     </div>
 
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4" id="second">
                     <h2></h2>
                     <button class="btn" id="btn1"><span></span>Book an Online Cansultation</button>
-                    <div class="row py-3">
+                    <div class="row py-3 row-cols-lg--4 row-cols-md-4 row-cols-sm-4 row-cols-4">
                         <div class="col-lg-3">
                             <img src="./assets/img/credai.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-3">
-                            <img src="./assets/img/kma.png" alt="" class="img-fluid" >
+                            <img src="./assets/img/kma.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-3">
-                            <img src="./assets/img/bai.png" alt="" class="img-fluid" >
+                            <img src="./assets/img/bai.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-lg-3">
-                            <img src="./assets/img/igbc.png" alt="" class="img-fluid" >
-                        </div>        
+                            <img src="./assets/img/igbc.png" alt="" class="img-fluid">
+                        </div>
                     </div>
                     <div class="content">
                         <h5 class="p-0 m-0 mb-1">Stay Tuned</h5>
@@ -586,53 +602,57 @@
                             Subscribe to our newsletter & never miss our updates, latest news, blogs etc.
                         </p>
                     </div>
-                <div class="row d-flex row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2">
-                    <div class="col-lg-8 mt-3">
-                        <input type="text" placeholder="Email Address"   style="height:45px;width:250px;padding:4px">
-                        <label for="">Enter Email Address</label>
+                    <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-2 row-cols-2">
+                        
+                            <div class="col-lg-9"  id ="input-text">
+                                <input type="text" placeholder="Email Address">
+                                <label>Enter Email Address</label>
+                            </div>
+                            <div class="col-lg-3" id="input-btn">
+                                <button class="btn" id="btn1">
+                                  <span></span><i class="fa-regular fa-paper-plane text-white"></i> </button>
+                            </div>
+                        
                     </div>
-                    <div class="col-lg-4 mr-0">
-                        <button class="btn" id="view_details" style="background-color: #ED1651; width:80px;"><i class="fa-regular fa-paper-plane text-white"></i></button>
-                       
-                    </div>
-                </div>
-                <div class="row d-flex row-cols-lg-5 row-cols-md-5 row-cols-sm-5 row-cols-5">
-                    <div class="col-lg-2">
-                        <div class="circle">
-                            <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <div class="row d-flex row-cols-lg-5 row-cols-md-5 row-cols-sm-5 row-cols-5" id="social-media">
+                        <div class="col-lg-2">
+                            
+                                <span class="span-1"><i class="fa-brands fa-facebook-f"></i></span>
+                            
+                        </div>
+                        <div class="col-lg-2">
+                            
+                                <span class="span-2"><i class="fa-brands fa-instagram"></i></span>
+                        
+                        </div>
+                        <div class="col-lg-2">
+                        
+                                <span class="span-3"><i class="fa-brands fa-twitter"></i></span>
+                        
+                        </div>
+                        <div class="col-lg-2"  >
+                        
+                                <span class="span-4"><i class="fa-brands fa-linkedin-in"></i></span>
+                        
+                        </div>
+                        <div class="col-lg-2">
+                        
+                                <span class="span-5"> <i class="fa-brands fa-youtube"></i></span>
+                        
                         </div>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="circle">
-                            <span><i class="fa-brands fa-instagram"></i></span>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="circle">
-                            <span><i class="fa-brands fa-twitter"></i></span>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="circle">
-                            <span><i class="fa-brands fa-linkedin-in"></i></span>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="circle">
-                           <span> <i class="fa-brands fa-youtube"></i></span>
-                        </div>
-                    </div>
-                </div>
                 </div>
             </div>
             <hr>
             <div class="row text-center" id="upper_arrow">
                 <div class="col">
-                    <p >© Varma Homes. All Rights Reserved</p>
-        <h2 class="text-center m-5"><a href="#"><span"><i class="fa-solid fa-arrow-up-wide-short text-pink"></i></span></a></h2>
+                    <p>© Varma Homes. All Rights Reserved</p>
+                    <h2 class="text-center m-5"><a href="#">
+                            <span"><i class="fa-solid fa-arrow-up-wide-short text-pink"></i></span>
+                        </a></h2>
                 </div>
-        </div>
-       
+            </div>
+
     </footer>
     <!-- FOOTER END--------------------------------------------------- -->
     <!-- ------------------------------------------------------------------- -->
@@ -641,7 +661,7 @@
     <!-- modal start -->
     <!-- Button trigger modal -->
     <button class="btn" id="fixed_btn" type="button" class="btn btn-primary" data-bs-toggle="modal"
-        data-bs-target="#exampleModal"><span class="fs-1 py-1"><i class="fa-solid fa-comments"></i></span></i></button>
+        data-bs-target="#exampleModal"><span class="fixed-chat-span fs-2"><i class="fa-solid fa-comments"></i></span></button>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -676,8 +696,8 @@
                             </div>
                         </div>
                         <div class="col-2">
-                            <button type="button" class="btn bg-pink btn-primary"><span><i
-                                        class="fa-regular fa-paper-plane"></i></span></button>
+                            <button type="button" class="btn bg-pink btn-primary">
+                                <i class="fa-regular fa-paper-plane"></i></button>
                         </div>
                     </div>
                 </div>
