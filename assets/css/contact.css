@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* banner section start */
+#banner_section{
+    background:linear-gradient(to right,rgba(72, 20, 32, 0.8),rgba(20, 84, 132, 0.8)),url(../img/Contact_img/bg2.jpg) no-repeat;
+    background-size:110%;
+    background-position:center;
+    height:180px;  
+    
+}
+#banner_section h3{
+    padding:70px 60px;
+    color:white;  
+}
+/* banner section end */
+/* form section start*/
+#form_section{
+    height:auto;
+    margin:40px 0px;
+}
+#form_section .container{
+    background-color:#F3EFE7;
+    padding:40px 40px;
+
+}
+#form_section .container h5{
+    font-weight:normal;
+}
+#form_section  .form .form-control{
+    border-radius:0px;
+}
+#form_section  .form button{
+    border:1px solid #ED1651;
+    padding:0px 20px;
+}
+/* form section end*/
+/* map section start*/
+#map_section{
+    background-color:#F4F7F6;
+    padding:40px 0px;
+    height:auto;
+}
+#map_section .col-lg-4 {
+    padding:100px 20px;
+}
+/* map section end*/
+/* office section start */
+#office_section{
+    background-color:#F4F7F6;
+    height:auto;
+}
+#office_section .container .row .col{
+    border-right:2px solid black;
+}
+#office_section a{
+    text-decoration:none;
+    color:black;
+}
+#office_section a:hover {
+    color:#ED1651; 
+    padding-bottom:20px;
+    position:relative;
+    
+}
+#office_section a:hover::before{
+    width:100%;
+}
+
+#office_section a::before{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    width:0px;
+    height:1px;
+    background-color:#ED1651;
+    transform:translateY(-50%);
+    transition:all 0.5s;
+}
+
+/* office section end */
+
+
+
+/* responsive page  */
+@media screen and (max-width:992px){
+
+    #office_section .container .row .col{
+        border-right:none;
+    }
+}
+@media screen and (max-width:768px){
+
+    #office_section .container .row .col{
+        border-right:none;
+    }
+}
+@media screen and (max-width:578px){
+
+    #office_section .container .row .col{
+        border-right:none;
+    }
+}

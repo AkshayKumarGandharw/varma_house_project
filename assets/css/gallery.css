@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* banner section start */
+#banner_section{
+     background:linear-gradient(to right,rgba(160, 62, 86,0.8),rgba(64, 106, 186,0.8)),url(../img/Gallery_img/bg9.jpg) no-repeat;
+     background-size:110%;
+     background-position:center;
+     height:180px;
+   
+}
+#banner_section h3{
+    padding:70px 60px;
+    color:white;  
+}
+/* banner section end */
+/* gallery section start */
+#gallery_section{
+    margin:40px 0px;
+    background-color:white;
+    overflow:hidden;
+}
+#gallery_section .gallery .gallery-images{
+    display:flex;
+    flex-wrap:wrap;
+}
+#gallery_section .gallery .gallery-images .image-item{
+    margin:auto auto;
+    justify-content:center;
+}
+#gallery_section .gallery .gallery-images .image-item .image{
+    width:300px;
+    height:200px;
+    margin:10px 10px;
+    position:relative;
+}
+#gallery_section .gallery .gallery-images .image-item .image img{
+    width:300px;
+    height:200px;
+}
+#gallery_section .gallery .gallery-images .image-item .content{
+    position:absolute;
+    text-align:center;
+    z-index:2;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:linear-gradient(rgba(5,5,5,0.6),rgba(5,5,5,0.6));
+    color:white;
+    display:none;
+    transition:all 0.5s;
+}
+#gallery_section .gallery .gallery-images .image-item.hide{
+    display:none;
+}
+#gallery_section .gallery .gallery-images .image-item.show{
+    display:block;
+}
+#gallery_section .gallery .gallery-images .image-item .image:hover .content{
+    display:block;
+}
+#gallery_section .gallery .gallery-images .image-item .content .content-div{
+    margin:100px 0px 10px 0px;
+}
+.pagination{
+    width:100%;
+    text-align:center;
+    margin:20px 0px;
+    
+}
+.pagination .prev ,.pagination .next{
+    border:1px solid black; 
+    padding:0px auto;
+    margin:0px auto;
+    text-align:center;
+    padding:10px 15px;
+    cursor:pointer;
+}
+.pagination .prev.disabled ,.pagination .next.disabled{
+    border:1px solid gray;
+    color:gray;
+    pointer-events:none;
+
+}
+/* gallery section end */
